@@ -1,0 +1,5 @@
+{
+  "files": [],
+  "exclude": [".storybook"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

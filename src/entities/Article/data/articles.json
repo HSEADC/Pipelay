@@ -1,0 +1,196 @@
+[
+  {
+    "id": "article-typography-basics",
+    "slug": "typography-basics",
+    "title": "Базовая типографика для интерфейсов",
+    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-01-15T10:00:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-css-architecture",
+    "slug": "css-architecture-tokens",
+    "title": "CSS-архитектура на токенах",
+    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-02-01T12:30:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-motion-hover",
+    "slug": "motion-and-hover-media",
+    "title": "Ховеры, тач и motion: как не сломать UX",
+    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-03-10T08:15:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+    {
+    "id": "article-typography-basics",
+    "slug": "typography-basics",
+    "title": "Базовая типографика для интерфейсов",
+    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-01-15T10:00:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-css-architecture",
+    "slug": "css-architecture-tokens",
+    "title": "CSS-архитектура на токенах",
+    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-02-01T12:30:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-motion-hover",
+    "slug": "motion-and-hover-media",
+    "title": "Ховеры, тач и motion: как не сломать UX",
+    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-03-10T08:15:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+    {
+    "id": "article-typography-basics",
+    "slug": "typography-basics",
+    "title": "Базовая типографика для интерфейсов",
+    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-01-15T10:00:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-css-architecture",
+    "slug": "css-architecture-tokens",
+    "title": "CSS-архитектура на токенах",
+    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-02-01T12:30:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-motion-hover",
+    "slug": "motion-and-hover-media",
+    "title": "Ховеры, тач и motion: как не сломать UX",
+    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-03-10T08:15:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },  {
+    "id": "article-typography-basics",
+    "slug": "typography-basics",
+    "title": "Базовая типографика для интерфейсов",
+    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-01-15T10:00:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-css-architecture",
+    "slug": "css-architecture-tokens",
+    "title": "CSS-архитектура на токенах",
+    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-02-01T12:30:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-motion-hover",
+    "slug": "motion-and-hover-media",
+    "title": "Ховеры, тач и motion: как не сломать UX",
+    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-03-10T08:15:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+    {
+    "id": "article-typography-basics",
+    "slug": "typography-basics",
+    "title": "Базовая типографика для интерфейсов",
+    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-01-15T10:00:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-css-architecture",
+    "slug": "css-architecture-tokens",
+    "title": "CSS-архитектура на токенах",
+    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-02-01T12:30:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  },
+  {
+    "id": "article-motion-hover",
+    "slug": "motion-and-hover-media",
+    "title": "Ховеры, тач и motion: как не сломать UX",
+    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
+    "coverImageUrl": "",
+    "publishedAt": "2025-03-10T08:15:00.000Z",
+    "author": {
+      "id": "author-mari",
+      "name": "mari",
+      "avatarUrl": ""
+    }
+  }
+]
