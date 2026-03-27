@@ -6,7 +6,7 @@ import eslintConfigPrettier from "eslint-config-prettier/flat";
 import { globalIgnores } from "eslint/config";
 
 export default tseslint.config([
-  globalIgnores(["dist", "storybook-static"]),
+  globalIgnores(["dist", "storybook-static", "docs"]),
   {
     files: ["**/*.{ts,tsx}"],
     ignores: ["*.config.*", ".storybook/**/*"],
