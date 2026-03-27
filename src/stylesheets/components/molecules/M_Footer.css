@@ -1,0 +1,24 @@
+.M_Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+
+    padding: var(--spacing-x4);
+
+    background: var(--color-background-tertiary);
+    border-radius: var(--border-radius-x16);
+    border: 1px solid var(--color-border-primary);
+}
+
+.M_FooterPerson {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x05);
+}
+
+.M_Footer span {
+    color: var(--color-neon);
+}

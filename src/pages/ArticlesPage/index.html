@@ -4,20 +4,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Каталог статей Pipelay: продуктивность, автоматизация практики и работа с workflows." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Статьи" />
+  <meta property="og:description"
+    content="Каталог статей Pipelay: продуктивность, автоматизация практики и работа с workflows." />
+  <meta property="og:url" content="/articles/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Статьи" />
+  <meta name="twitter:description"
+    content="Каталог статей Pipelay: продуктивность, автоматизация практики и работа с workflows." />
+  <meta name="twitter:url" content="/articles/" />
+
   <title>Статьи</title>
 </head>
 
 <body>
-  <nav>
-    <a href="../">Главная</a>
-    <span aria-hidden="true">|</span>
-    <a href="./" aria-current="page">Статьи</a>
-  </nav>
-  <main>
-    <h1>Статьи</h1>
-    <input data-articles-search type="search" placeholder="Поиск по статьям" />
-    <section data-articles-list aria-label="Список статей"></section>
-  </main>
+  <div class="Layout">
+    <W_MobileNav></W_MobileNav>
+    <M_Header></M_Header>
+    <M_SearchInput></M_SearchInput>
+    <div class="LayoutContent">
+      <O_Sidebar></O_Sidebar>
+      <main>
+        <div class="LayoutContentMain">
+          <div class="W_ArticlesPageHeroTextBlock">
+            <h1>Узнайте, как создавать workflows</h1>
+            <h4>Читайте статьи о том как: комбинировать и автоматизировать digital-инструменты для работы и творчества
+            </h4>
+          </div>
+          <section class="M_ArticlesPageArticlesBlock">
+            <div class="C_ArticlesPageArticlesFilterButtons">
+              <A_FilterButton data-filter-key="ArticleProductivity">Продуктивность</A_FilterButton>
+              <A_FilterButton data-filter-key="ArticleAutomation">Автоматизация</A_FilterButton>
+              <A_FilterButton data-filter-key="ArticlePractice">Практика</A_FilterButton>
+            </div>
+            <div class="M_ArticlesPageBenefitItem">
+              <Q_Icon data-icon="Triangle" data-alt="Triangle"></Q_Icon>
+              <span class="text-label">Руководства, примеры из практики и советы по использованию workflows и
+                повышению
+                производительности</span>
+            </div>
+            <div class="C_ArticlesPageArticlesList" id="articles-root"></div>
+          </section>
+          <M_Footer></M_Footer>
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="LayoutArticlesBackground"></div>
 </body>
 
 </html>

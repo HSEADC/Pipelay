@@ -4,7 +4,7 @@
   "rules": {
     "declaration-block-no-shorthand-property-overrides": null,
     "declaration-empty-line-before": null,
-    "selector-class-pattern": "^(?:[A-Z0-9]+(?:_[A-Z0-9]+)*|text-[a-z0-9-]+)$",
+    "selector-class-pattern": "^(?:[A-Z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)*|(?:text|effect)-[a-z0-9-]+)$",
     "selector-id-pattern": "^[A-Z0-9]+(_[A-Z0-9]+)*$",
     "media-feature-range-notation": "prefix",
     "property-no-vendor-prefix": [

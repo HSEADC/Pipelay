@@ -1,0 +1,71 @@
+.W_ArticlesPageHeroTextBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x4);
+}
+
+.W_ArticlesPageHeroTextBlock h1, .W_ArticlesPageHeroTextBlock h4 {
+    color: var(--color-text-primary);
+}
+
+.W_ArticlesPageHeroTextBlock h4 {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.M_ArticlesPageArticlesBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x16);
+
+    width: 100%;
+}
+
+.M_ArticlesPageBenefitItem {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    border-radius: var(--border-radius-x5);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.M_ArticlesPageBenefitItem span {
+    color: var(--color-neon);
+}
+
+.C_ArticlesPageArticlesFilterButtons {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x5);
+}
+
+.C_ArticlesPageArticlesList {
+    display: grid;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.LayoutArticlesBackground {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+    width: 749px;
+
+    height: 749px;
+
+    background: url("../../../assets/images/ArticlesBackgroundImage.png") no-repeat center / contain;
+    inset-inline-end: 0%;
+
+    pointer-events: none;
+}
+
+@media (max-width: 1280px) {
+    .C_ArticlesPageArticlesList {
+        grid-template-columns: repeat(1, 1fr);
+    }}

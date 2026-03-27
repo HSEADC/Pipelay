@@ -6,3 +6,12 @@
          url('../assets/fonts/Roboto.otf') format(opentype),
          url('../assets/fonts/Roboto.ttf') format(truetype);
 }
+
+@font-face {
+    font-family: NeueMachina;
+    font-weight: 400;
+    src: url('../assets/fonts/PPNeueMachina.woff2') format(woff2),
+         url('../assets/fonts/PPNeueMachina.woff') format(woff),
+         url('../assets/fonts/PPNeueMachina.otf') format(opentype),
+         url('../assets/fonts/PPNeueMachina.ttf') format(truetype);
+}

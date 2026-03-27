@@ -6,7 +6,7 @@ import eslintConfigPrettier from "eslint-config-prettier/flat";
 import { globalIgnores } from "eslint/config";
 
 export default tseslint.config([
-  globalIgnores(["dist"]),
+  globalIgnores(["dist", "storybook-static"]),
   {
     files: ["**/*.{ts,tsx}"],
     ignores: ["*.config.*", ".storybook/**/*"],
@@ -19,7 +19,7 @@ export default tseslint.config([
     languageOptions: {
       parser: tseslint.parser,
       parserOptions: {
-        projectService: true,
+        project: "./tsconfig.eslint.json",
         tsconfigRootDir: process.cwd(),
       },
       ecmaVersion: 2020,

@@ -1,0 +1,35 @@
+import { applyNavigationItems, initNavigationPlate } from "@shared/ui";
+
+export default {
+  title: "shared/ui/organisms/O_Sidebar",
+};
+
+export const Default = {
+  render: () => {
+    const root = document.createElement("div");
+    root.style.padding = "16px";
+    root.style.maxWidth = "320px";
+
+    root.innerHTML = `
+      <aside class="O_Sidebar">
+        <div class="O_SidebarContent">
+          <div class="O_SidebarLogoPlate">
+            <img src="/assets/icons/A_Logo.svg" alt="Logo" class="M_LogoPlateImage">
+            <span class="O_SidebarLogoPlateText text-p-1">Pipelay</span>
+          </div>
+          <W_NavigationPlate></W_NavigationPlate>
+        </div>
+        <div class="O_SidebarCTAPlate">
+          <img src="/assets/icons/Star.svg" alt="Star" class="O_SidebarCTAPlateImage">
+          <span class="O_SidebarCTAPlateText text-p-1">Workflows to go</span>
+        </div>
+      </aside>
+    `;
+
+    document.body.appendChild(root);
+    initNavigationPlate();
+    applyNavigationItems();
+    root.remove();
+    return root;
+  },
+};

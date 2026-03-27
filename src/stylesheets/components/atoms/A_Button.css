@@ -1,0 +1,19 @@
+.A_Button {
+    padding: var(--spacing-x3) var(--spacing-x6);
+
+    color: var(--color-text-tertiary);
+
+    background: var(--color-button);
+
+    border-radius: var(--border-radius-x10);
+    cursor: pointer;
+    border: 1px solid var(--color-border-secondary)
+}
+
+.A_Button:hover{
+    background: var(--color-neon);
+}
+
+.A_Button:active{
+    background: var(--color-button);
+}

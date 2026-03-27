@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "pipelay",
   "version": "1.0.0",
   "main": "index.js",
   "author": "jucysussi",
@@ -37,6 +37,7 @@
     "core-js": "^3.48.0",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.0",
+    "dotenv": "^17.3.1",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",

@@ -1,0 +1,352 @@
+#TEST_PAGE_ROOT {
+    display: block;
+    
+    height: 100%;
+    min-height: 0;
+
+    padding: var(--spacing-x16);
+    flex: 1;
+}
+
+.TestPage {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x6);
+
+    padding: var(--spacing-x4) 0;
+}
+
+.TestPage_Quiz {
+    gap: var(--spacing-x6);
+
+    min-height: 0;
+    flex: 1;
+}
+
+.TestPage_Results {
+    justify-content: center;
+    gap: var(--spacing-x6);
+
+    min-height: 0;
+    flex: 1;
+}
+
+.TestPageIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-x16);
+
+    width: 100%;
+
+    min-height: 0;
+
+    padding: var(--spacing-x16);
+
+    flex: 1;
+}
+
+.TestPageIntroContent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x6);
+}
+
+.TestPageIntroTitle {
+    color: var(--color-text-primary);
+}
+
+.TestPageIntroDesc {
+    color: var(--color-text-primary);
+}
+
+.TestPageTag {
+    width: fit-content;
+
+    padding: var(--spacing-x2) var(--spacing-x4);
+
+    color: var(--color-text-tertiary);
+
+    background: var(--color-button);
+
+    border-radius: var(--border-radius-x10);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.TestPageIntro .A_Button {
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.TestPageBtnPrimary {
+    display: block;
+
+    width: 100%;
+
+    padding: var(--spacing-x4) var(--spacing-x6);
+
+    color: var(--color-text-tertiary);
+
+    text-align: center;
+
+    background: var(--color-button);
+
+    border-radius: var(--border-radius-x10);
+    border: 1px solid var(--color-border-secondary);
+
+    cursor: pointer;
+}
+
+.TestPageBtnPrimary:hover {
+    filter: brightness(1.05);
+}
+
+.TestPageBtnOutline {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    gap: var(--spacing-x3);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    color: var(--color-neon);
+
+    background: transparent;
+
+    border-radius: var(--border-radius-x10);
+
+    text-decoration: none;
+    border: 1px solid var(--color-border-secondary);
+
+    cursor: pointer;
+}
+
+.TestPageBtnOutline_wide {
+    padding: var(--spacing-x2) var(--spacing-x3);
+}
+
+.TestPageQuizTitle {
+    max-width: 900px;
+
+    color: var(--color-text-primary);
+
+    text-align: center;
+    align-self: center;
+}
+
+.TestPageQuestionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-x8);
+
+    min-height: 0;
+
+    padding: var(--spacing-x12);
+
+    background: var(--color-background-tertiary);
+    border-radius: var(--border-radius-x6);
+    border: 1px solid var(--color-border-secondary);
+    flex: 1;
+}
+
+.TestPageQuestionHeader {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x4);
+}
+
+.TestPageQuestionChip {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    width: fit-content;
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    color: var(--color-neon);
+
+    border-radius: var(--border-radius-x10);
+    white-space: nowrap;
+    border: 1px solid var(--color-border-secondary);
+}
+
+.TestPageQuestionChip img.Q_Icon {
+    width: 16px;
+
+    height: 16px;
+}
+
+.TestPageQuestionText {
+    margin: 0;
+
+    color: var(--color-text-primary);
+}
+
+.TestPageOptionsGrid {
+    display: grid;
+    gap: var(--spacing-x3);
+
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 640px) {
+    .TestPageOptionsGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.TestPageNextQuestionBtn {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    gap: var(--spacing-x3);
+
+    padding: var(--spacing-x4) var(--spacing-x6);
+
+    color: var(--color-neon);
+
+    text-align: left;
+
+    background: rgb(0 0 0 / 25%);
+
+    border-radius: var(--border-radius-x10);
+    border: 1px solid var(--color-border-secondary);
+
+    cursor: pointer;
+}
+
+.TestPageNextQuestionBtn:disabled {
+    opacity: 0.35;
+
+    cursor: not-allowed;
+}
+
+.TestPageBottomNav {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    gap: var(--spacing-x4);
+
+    padding: var(--spacing-x3) var(--spacing-x5);
+
+    border-radius: var(--border-radius-x10);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.TestPageBottomNavLink {
+    color: var(--color-neon);
+
+    text-decoration: none;
+}
+
+.TestPageIconNavBtn {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    padding: var(--spacing-x2);
+
+    color: inherit;
+
+    background: transparent;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+.TestPageIconNavBtn:disabled {
+    opacity: 0.35;
+
+    cursor: not-allowed;
+}
+
+.TestPageResultCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-x8);
+
+    min-height: 0;
+
+    padding: var(--spacing-x12);
+
+    background: var(--color-background-tertiary);
+    border-radius: var(--border-radius-x6);
+    border: 1px solid var(--color-border-secondary);
+    flex: 1;
+}
+
+.TestPageResultHeader {
+    display: flex;
+
+    align-items: flex-start;
+    gap: var(--spacing-x6);
+}
+
+.TestPageResultStarWrap .TestPageResultImage {
+    display: block;
+
+    width: 180px;
+
+    height: 180px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.TestPageResultTextBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x4);
+
+    flex: 1;
+}
+
+.TestPageResultTitleRow {
+    display: flex;
+
+    align-items: center;
+    gap: var(--spacing-x2);
+}
+
+.TestPageResultTitleRow h4 {
+    margin: 0;
+
+    color: var(--color-text-primary);
+}
+
+.TestPageResultStarSmall img.Q_Icon {
+    width: 20px;
+
+    height: 20px;
+
+    opacity: 0.9;
+}
+
+.TestPageResultBand {
+    margin: 0;
+
+    color: var(--color-neon);
+}
+
+.TestPageResultDesc {
+    margin: 0;
+
+    color: var(--color-text-primary);
+}
+
+.TestPageNextWrap .A_Button {
+    display: block;
+
+    text-align: center;
+}

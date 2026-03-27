@@ -1,196 +1,219 @@
 [
   {
-    "id": "article-typography-basics",
-    "slug": "typography-basics",
-    "title": "Базовая типографика для интерфейсов",
-    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-01-15T10:00:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-kak-perestat-teryat-zadachi-effektivnye-sistemy-task-menedzhmenta",
+    "slug": "kak-perestat-teryat-zadachi-effektivnye-sistemy-task-menedzhmenta",
+    "title": "Как перестать терять задачи: эффективные системы task-менеджмента",
+    "excerpt": "Обзор подходов к управлению задачами и инструментов, которые помогают держать всё под контролем",
+    "contentMarkdown": "Современная работа редко ограничивается одной задачей. Обычный специалист одновременно ведет несколько проектов, отвечает на сообщения, планирует встречи и выполняет десятки мелких задач. Без системы управления задачами все это быстро превращается в хаос: задачи забываются, дедлайны сдвигаются, а список дел постоянно растет.\n\nЭффективная система task-менеджмента помогает структурировать работу, расставлять приоритеты и держать все задачи под контролем. В этой статье разберем основные подходы к управлению задачами и инструменты, которые помогают организовать рабочий процесс.\n\n## Почему задачи теряются\n\nЧаще всего задачи теряются не из-за большого количества работы, а из-за отсутствия системы. Когда задачи хранятся в разных местах - в заметках, чатах, письмах или просто в голове - становится сложно отслеживать их выполнение.\n\nОсновные причины потери задач:\n\n- задачи фиксируются в разных сервисах;\n- отсутствует единый список дел;\n- нет четких приоритетов;\n- задачи не разбиваются на конкретные шаги.\n\n## Метод \"Единого списка задач\"\n\nЧаще всего задачи теряются не из-за большого количества работы, а из-за отсутствия системы. Когда задачи хранятся в разных местах - в заметках, чатах, письмах или просто в голове - становится сложно отслеживать их выполнение.\n\n- все задачи находятся в одном пространстве;\n- не дублируются в голосе и чате;\n- становятся понятны объемы дел.\n\n## Метод Kanban\n\nKanban - популярный метод управления задачами, который часто используется в командах и IT-проектах. Он основан на визуализации рабочего процесса.\n\nЗадачи размещаются на доске и перемещаются между колонками, например:\n\n- Сделать;\n- В процессе;\n- Готово.\n\nТакой формат помогает быстро понять, на каком этапе находится каждая задача, и видеть общий прогресс проекта. Kanban особенно полезен, когда нужно управлять большим количеством задач и проектов одновременно.\n\n## Метод приоритизации задач\n\nНе все задачи одинаково важны. Иногда список дел становится длинным, и становится трудно понять, с чего начать.\n\nПоэтому важно распределять задачи по приоритетам.\n\n- важные и срочные;\n- важные, но не срочные;\n- второстепенные задачи.\n\n## Как построить свою систему управления задачами\n\n- 1. Сбор всех задач в одном месте;\n- 2. Добавление контекста и сроков;\n- 3. Приоритизация;\n- 4. Ежедневный обзор;\n- 5. Завершение.\n\nКаждая задача проходит через эти этапы, и пользователь всегда понимает, на каком этапе находится работа. Такой подход убирает хаос и повышает продуктивность.\n\n## Итог\n\nЭффективный task-менеджмент - это не только список задач, а целая система управления работой. Когда все задачи находятся в одном месте, распределены по приоритетам и встроены в понятный workflow, становится гораздо легче контролировать рабочий процесс.\n\nИспользование современных инструментов и методов помогает сократить хаос в задачах, повысить продуктивность и сосредоточиться на действительно важных делах.",
+    "tags": [
+      "Productivity"
+    ]
   },
   {
-    "id": "article-css-architecture",
-    "slug": "css-architecture-tokens",
-    "title": "CSS-архитектура на токенах",
-    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-02-01T12:30:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-minimalistichnyy-workflow-menshe-instrumentov-bolshe-effektivnosti",
+    "slug": "minimalistichnyy-workflow-menshe-instrumentov-bolshe-effektivnosti",
+    "title": "Минималистичный workflow: меньше инструментов — больше эффективности",
+    "excerpt": "Как сократить количество сервисов и создать простой, но мощный рабочий процесс",
+    "tags": [
+      "Productivity"
+    ]
   },
   {
-    "id": "article-motion-hover",
-    "slug": "motion-and-hover-media",
-    "title": "Ховеры, тач и motion: как не сломать UX",
-    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-03-10T08:15:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
-  },
-    {
-    "id": "article-typography-basics",
-    "slug": "typography-basics",
-    "title": "Базовая типографика для интерфейсов",
-    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-01-15T10:00:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-kak-strukturirovat-informatsiyu-v-digital-srede",
+    "slug": "kak-strukturirovat-informatsiyu-v-digital-srede",
+    "title": "Как структурировать информацию в digital-среде",
+    "excerpt": "Методы организации заметок, файлов и проектов, которые помогают быстрее находить нужную информацию",
+    "tags": [
+      "Productivity"
+    ]
   },
   {
-    "id": "article-css-architecture",
-    "slug": "css-architecture-tokens",
-    "title": "CSS-архитектура на токенах",
-    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-02-01T12:30:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-taym-menedzhment-dlya-digital-spetsialistov",
+    "slug": "taym-menedzhment-dlya-digital-spetsialistov",
+    "title": "Тайм-менеджмент для digital-специалистов",
+    "excerpt": "Практические методы управления временем с использованием современных инструментов",
+    "tags": [
+      "Productivity"
+    ]
   },
   {
-    "id": "article-motion-hover",
-    "slug": "motion-and-hover-media",
-    "title": "Ховеры, тач и motion: как не сломать UX",
-    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-03-10T08:15:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
-  },
-    {
-    "id": "article-typography-basics",
-    "slug": "typography-basics",
-    "title": "Базовая типографика для интерфейсов",
-    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-01-15T10:00:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-kak-postroit-lichnuyu-sistemu-produktivnosti-iz-tsifrovyh-instrumentov",
+    "slug": "kak-postroit-lichnuyu-sistemu-produktivnosti-iz-tsifrovyh-instrumentov",
+    "title": "Как построить личную систему продуктивности из цифровых инструментов",
+    "excerpt": "Разбираем, как объединить заметки, задачи и планирование в единую систему, которая помогает работать быстрее и не терять информацию",
+    "tags": [
+      "Productivity"
+    ]
   },
   {
-    "id": "article-css-architecture",
-    "slug": "css-architecture-tokens",
-    "title": "CSS-архитектура на токенах",
-    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-02-01T12:30:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-workflow-dlya-upravleniya-zadachami-ot-idei-do-vypolneniya",
+    "slug": "workflow-dlya-upravleniya-zadachami-ot-idei-do-vypolneniya",
+    "title": "Workflow для управления задачами: от идеи до выполнения",
+    "excerpt": "Пошаговый разбор того, как организовать рабочий процесс, чтобы идеи превращались в конкретные результаты",
+    "tags": [
+      "Productivity"
+    ]
   },
   {
-    "id": "article-motion-hover",
-    "slug": "motion-and-hover-media",
-    "title": "Ховеры, тач и motion: как не сломать UX",
-    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-03-10T08:15:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
-  },  {
-    "id": "article-typography-basics",
-    "slug": "typography-basics",
-    "title": "Базовая типографика для интерфейсов",
-    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-01-15T10:00:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-kak-sozdat-produktivnuyu-rabochuyu-sredu",
+    "slug": "kak-sozdat-produktivnuyu-rabochuyu-sredu",
+    "title": "Как создать продуктивную рабочую среду",
+    "excerpt": "Разбираем, какие сервисы и привычки помогают сохранять концентрацию и фокус",
+    "tags": [
+      "Productivity"
+    ]
   },
   {
-    "id": "article-css-architecture",
-    "slug": "css-architecture-tokens",
-    "title": "CSS-архитектура на токенах",
-    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-02-01T12:30:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-sistema-vtorogo-mozga-kak-organizovat-znaniya",
+    "slug": "sistema-vtorogo-mozga-kak-organizovat-znaniya",
+    "title": "Система второго мозга: как организовать знания",
+    "excerpt": "Как построить систему хранения идей, заметок и информации, которая помогает быстрее генерировать новые решения",
+    "tags": [
+      "Productivity"
+    ]
   },
   {
-    "id": "article-motion-hover",
-    "slug": "motion-and-hover-media",
-    "title": "Ховеры, тач и motion: как не сломать UX",
-    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-03-10T08:15:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
-  },
-    {
-    "id": "article-typography-basics",
-    "slug": "typography-basics",
-    "title": "Базовая типографика для интерфейсов",
-    "excerpt": "Как выбрать кегль, межстрочный интервал и иерархию заголовков, чтобы интерфейс читался легко и предсказуемо.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-01-15T10:00:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-kak-avtomatizirovat-povtoryayuschiesya-zadachi",
+    "slug": "kak-avtomatizirovat-povtoryayuschiesya-zadachi",
+    "title": "Как автоматизировать повторяющиеся задачи",
+    "excerpt": "Пошаговое руководство по созданию автоматизированных workflow для повседневных процессов.",
+    "tags": [
+      "Automation"
+    ]
   },
   {
-    "id": "article-css-architecture",
-    "slug": "css-architecture-tokens",
-    "title": "CSS-архитектура на токенах",
-    "excerpt": "Разбираем, как разнести дизайн-токены, утилитарные классы и компоненты по слоям, чтобы проект не превращался в кашу.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-02-01T12:30:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-automation-workflow-kak-soedinyat-servisy-mezhdu-soboy",
+    "slug": "automation-workflow-kak-soedinyat-servisy-mezhdu-soboy",
+    "title": "Automation workflow: как соединять сервисы между собой",
+    "excerpt": "Разбираем, как разные инструменты могут работать вместе через интеграции",
+    "tags": [
+      "Automation"
+    ]
   },
   {
-    "id": "article-motion-hover",
-    "slug": "motion-and-hover-media",
-    "title": "Ховеры, тач и motion: как не сломать UX",
-    "excerpt": "Зачем нужны media-запросы по hover/pointer и как через PostCSS-плагин разводить :hover и :active для разных устройств.",
-    "coverImageUrl": "",
-    "publishedAt": "2025-03-10T08:15:00.000Z",
-    "author": {
-      "id": "author-mari",
-      "name": "mari",
-      "avatarUrl": ""
-    }
+    "id": "article-10-protsessov-kotorye-stoit-avtomatizirovat-uzhe-segodnya",
+    "slug": "10-protsessov-kotorye-stoit-avtomatizirovat-uzhe-segodnya",
+    "title": "10 процессов, которые стоит автоматизировать уже сегодня",
+    "excerpt": "Примеры задач, которые можно передать автоматизации и сэкономить время",
+    "tags": [
+      "Automation"
+    ]
+  },
+  {
+    "id": "article-kak-postroit-avtomatizirovannyy-workflow-dlya-kontenta",
+    "slug": "kak-postroit-avtomatizirovannyy-workflow-dlya-kontenta",
+    "title": "Как построить автоматизированный workflow для контента",
+    "excerpt": "Создание pipeline для генерации, редактирования и публикации контента",
+    "tags": [
+      "Automation"
+    ]
+  },
+  {
+    "id": "article-no-code-avtomatizatsiya-instrumenty-kotorye-zamenyayut-ruchnuyu-rabotu",
+    "slug": "no-code-avtomatizatsiya-instrumenty-kotorye-zamenyayut-ruchnuyu-rabotu",
+    "title": "No-code автоматизация: инструменты, которые заменяют ручную работу",
+    "excerpt": "Обзор сервисов, позволяющих автоматизировать процессы без программирования",
+    "tags": [
+      "Automation"
+    ]
+  },
+  {
+    "id": "article-kak-obedinit-ai-instrumenty-v-odin-workflow",
+    "slug": "kak-obedinit-ai-instrumenty-v-odin-workflow",
+    "title": "Как объединить AI-инструменты в один workflow",
+    "excerpt": "Показываем, как использовать AI-сервисы вместе для повышения эффективности",
+    "tags": [
+      "Automation"
+    ]
+  },
+  {
+    "id": "article-avtomatizatsiya-marketinga-instrumenty-i-stsenarii",
+    "slug": "avtomatizatsiya-marketinga-instrumenty-i-stsenarii",
+    "title": "Автоматизация маркетинга: инструменты и сценарии",
+    "excerpt": "Workflow для автоматизации публикаций, аналитики и работы с аудиторией",
+    "tags": [
+      "Automation"
+    ]
+  },
+  {
+    "id": "article-kak-avtomatizirovat-upravlenie-proektami",
+    "slug": "kak-avtomatizirovat-upravlenie-proektami",
+    "title": "Как автоматизировать управление проектами",
+    "excerpt": "Методы автоматизации задач, уведомлений и рабочих процессов команды",
+    "tags": [
+      "Automation"
+    ]
+  },
+  {
+    "id": "article-realnyy-workflow-dizaynera",
+    "slug": "realnyy-workflow-dizaynera",
+    "title": "Реальный workflow дизайнера",
+    "excerpt": "Разбираем набор инструментов и рабочий процесс, который используют дизайнеры",
+    "tags": [
+      "Practice"
+    ]
+  },
+  {
+    "id": "article-kak-vyglyadit-rabochiy-protsess-kontent-kreatora",
+    "slug": "kak-vyglyadit-rabochiy-protsess-kontent-kreatora",
+    "title": "Как выглядит рабочий процесс контент-креатора",
+    "excerpt": "Показываем pipeline от идеи до публикации",
+    "tags": [
+      "Practice"
+    ]
+  },
+  {
+    "id": "article-workflow-startap-komandy",
+    "slug": "workflow-startap-komandy",
+    "title": "Workflow стартап-команды",
+    "excerpt": "Какие инструменты используют команды для управления продуктом",
+    "tags": [
+      "Practice"
+    ]
+  },
+  {
+    "id": "article-kak-organizovat-rabochiy-protsess-razrabotchika",
+    "slug": "kak-organizovat-rabochiy-protsess-razrabotchika",
+    "title": "Как организовать рабочий процесс разработчика",
+    "excerpt": "Инструменты и методы управления задачами и проектами",
+    "tags": [
+      "Practice"
+    ]
+  },
+  {
+    "id": "article-workflow-marketologa-ot-strategii-do-analitiki",
+    "slug": "workflow-marketologa-ot-strategii-do-analitiki",
+    "title": "Workflow маркетолога: от стратегии до аналитики",
+    "excerpt": "Разбираем систему инструментов для маркетинга",
+    "tags": [
+      "Practice"
+    ]
+  },
+  {
+    "id": "article-kak-sozdat-workflow-dlya-obucheniya",
+    "slug": "kak-sozdat-workflow-dlya-obucheniya",
+    "title": "Как создать workflow для обучения",
+    "excerpt": "Показываем, как организовать процесс изучения новых навыков",
+    "tags": [
+      "Practice"
+    ]
+  },
+  {
+    "id": "article-rabochiy-protsess-frilansera",
+    "slug": "rabochiy-protsess-frilansera",
+    "title": "Рабочий процесс фрилансера",
+    "excerpt": "Инструменты для управления проектами и клиентами",
+    "tags": [
+      "Practice"
+    ]
+  },
+  {
+    "id": "article-workflow-dlya-sozdaniya-kontenta",
+    "slug": "workflow-dlya-sozdaniya-kontenta",
+    "title": "Workflow для создания контента",
+    "excerpt": "Пошаговый процесс создания и публикации материалов",
+    "tags": [
+      "Practice"
+    ]
   }
 ]

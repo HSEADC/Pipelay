@@ -1,0 +1,92 @@
+.LayoutArticleBackground {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+    width: 649px;
+
+    height: 649px;
+
+    background: url("../../../assets/images/ArticleBackgroundImage.png") no-repeat center / contain;
+    inset-inline-end: 0%;
+
+    pointer-events: none;
+}
+
+.ArticlePageContent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x16);
+
+    padding: var(--spacing-x16);
+}
+
+.ArticlePageHero {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x6);
+}
+
+.ArticlePageHero h1, .ArticlePageHero p {
+    color: var(--color-text-primary);
+}
+
+.ArticlePageTag {
+    width: fit-content;
+
+    padding: var(--spacing-x3);
+
+    color: var(--color-text-tertiary);
+
+    background: var(--color-button);
+
+    border-radius: var(--border-radius-x10);
+    border: 1px solid var(--color-border-secondary)
+}
+
+.ArticlePageBody {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x8);
+
+    padding: var(--spacing-x16);
+
+    color: var(--color-text-primary);
+
+    background: var(--color-background-tertiary);
+
+    border-radius: var(--border-radius-x14);
+    border: 1px solid var(--color-border-primary);
+}
+
+.ArticlePageBody ul {
+    margin: 0;
+    padding-inline-start: 20px;
+}
+
+.ArticlePageActions {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ArticlePageLinkItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    border-radius: var(--border-radius-x5);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.ArticlePageLinkItem span {
+    color: var(--color-neon);
+}
+
+.ArticlePageFooter {
+    padding: 0 var(--spacing-x16);
+
+    margin-bottom: var(--spacing-x16);
+}

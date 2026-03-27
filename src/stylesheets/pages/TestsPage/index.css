@@ -1,0 +1,57 @@
+.W_TestsPageHeroTextBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x4);
+}
+
+.W_TestsPageHeroTextBlock h1, .W_TestsPageHeroTextBlock h4 {
+    color: var(--color-text-primary);
+}
+
+.W_TestsPageHeroTextBlock h4 {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.M_TestsPageBenefitItem {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    border-radius: var(--border-radius-x5);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.M_TestsPageBenefitItem span {
+    color: var(--color-neon);
+}
+
+.M_TestsPageTestsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x16);
+
+    width: 100%;
+}
+
+.C_TestsPageTestsFilterButtons {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x5);
+}
+
+.C_TestsPageTestsList {
+    display: grid;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1280px) {
+    .C_TestsPageTestsList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,270 @@
+.W_AboutPageHeroBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x8);
+
+    width: 100%;
+
+    padding: var(--spacing-x8) 0;
+}
+
+.W_AboutPageHeroTextBlcok {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+}
+
+.W_AboutPageHeroTextBlcok h1 {
+    color: var(--color-text-primary);
+}
+
+.W_AboutPageHeroTextBlcok h4 {
+    width: 100%;
+    max-width: 1024px;
+
+    color: var(--color-text-primary);
+}
+
+.C_AboutPageHeroButtons {
+    display: flex;
+    gap: var(--spacing-x3);
+
+    width: 100%;
+}
+
+.W_AboutPageProblemBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-x16);
+
+    padding: var(--spacing-x8) 0 var(--spacing-x16) 0;
+}
+
+.W_AboutPageProblemTextBlock {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+}
+
+.W_AboutPageProblemTextBlock h4 {
+    color: var(--color-text-primary);
+    text-align: center;
+}
+
+.W_AboutPageProblemInfoBlock {
+    position: relative;
+}
+
+.W_AboutPageProblemInfoPlate {
+    position: relative;
+    z-index: 1;
+
+    padding: var(--spacing-x8) var(--spacing-x16);
+
+    background: var(--color-background-tertiary);
+    border-radius: var(--border-radius-x14);
+    border: 1px solid var(--color-border-primary);
+}
+
+.W_AboutPageProblemInfoPlate h4 {
+    color: var(--color-text-primary);
+    text-align: center;
+}
+
+.W_AboutPageProblemInfoImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+
+    width: 100%;
+    max-width: 660px;
+
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    object-position: center;
+    pointer-events: none;
+    user-select: none;
+}
+
+.W_AboutPageBenefitsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-x8);
+
+    width: 100%;
+
+    padding: var(--spacing-x8) 0;
+}
+
+.W_AboutPageBenefitsTextBlock {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+}
+
+.W_AboutPageBenefitsTextBlock h4 {
+    color: var(--color-text-primary);
+    text-align: center;
+}
+
+.C_AboutPageBenefitsPlates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-x5);
+
+    width: 100%;
+}
+
+.M_AboutPageBenefitsPlate {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    border-radius: var(--border-radius-x5);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.M_AboutPageBenefitsPlate span {
+    color: var(--color-neon);
+}
+
+.W_AboutPageBenefitsText {
+    width: 100%;
+    max-width: 700px;
+
+    color: var(--color-text-primary);
+
+    text-align: center;
+}
+
+.W_AboutPageBenefitsTextHighlight {
+    color: var(--color-neon);
+}
+
+.W_AboutPageActionsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x16);
+
+    width: 100%;
+}
+
+.C_AboutPageActionsFilterButtons {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x5);
+
+    width: 100%;
+}
+
+.C_AboutPageActionsHowItWorks {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x5);
+
+    width: 100%;
+}
+
+.M_AboutPageActionsHowItWorksItem {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    border-radius: var(--border-radius-x5);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.M_AboutPageActionsHowItWorksItem span {
+    color: var(--color-neon);
+}
+
+.W_AboutPageActionsKeyFeaturesBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+}
+
+.C_AboutPageActionsKeyFeatures {
+    display: grid;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.M_AboutPageActionsKeyFeaturesItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x4) var(--spacing-x6);
+
+    background: var(--color-background-tertiary);
+    border-radius: var(--border-radius-x12);
+    border: 1px solid var(--color-border-primary);
+}
+
+.M_AboutPageActionsKeyFeaturesItem h4 {
+    color: var(--color-text-primary);
+}
+
+.W_AboutPageActionsWorkflowsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+}
+
+.W_AboutPageActionsBlockHidden {
+    display: none;
+}
+
+.W_AboutPageActionsKeyFeaturesItemImage {
+    width: 100%;
+    max-width: 54px;
+
+    height: auto;
+    object-fit: contain;
+}
+
+.C_AboutPageActionsWorkflows {
+    display: grid;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.M_AboutPageActionsWorkflowsItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: var(--spacing-x4);
+
+    padding: var(--spacing-x6);
+
+    background: var(--color-background-tertiary);
+    border-radius: var(--border-radius-x6);
+    border: 1px solid var(--color-border-primary);
+}
+
+.M_AboutPageActionsWorkflowsItem p, .M_AboutPageActionsWorkflowsItem h4 {
+    color: var(--color-text-primary);
+}

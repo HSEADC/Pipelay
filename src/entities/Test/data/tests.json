@@ -1,0 +1,278 @@
+[
+  {
+    "id": "test-productivity-1",
+    "slug": "kakoy-tip-sistemy-produktivnosti-podhodit-vam",
+    "title": "Какой тип системы продуктивности подходит вам",
+    "tag": ["Productivity"],
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Как лучше всего фиксировать новые задачи?",
+        "options": [
+          { "id": "A", "text": "Запоминать их" },
+          { "id": "B", "text": "Записывать в разных местах" },
+          { "id": "C", "text": "Сразу добавлять в единую систему задач" },
+          { "id": "D", "text": "Оставлять в чатах" }
+        ],
+        "correctOptionId": "C",
+        "explanation": "Правильный ответ: C — сразу добавлять в единую систему задач."
+      },
+      {
+        "id": "q2",
+        "question": "Что помогает лучше всего контролировать процесс выполнения задач?",
+        "options": [
+          { "id": "A", "text": "Хранить задачи в голове" },
+          { "id": "B", "text": "Использовать визуальную систему, например доску задач" },
+          { "id": "C", "text": "Делать всё сразу" },
+          { "id": "D", "text": "Работать без плана" }
+        ],
+        "correctOptionId": "B",
+        "explanation": "Правильный ответ: B — использовать визуальную систему задач."
+      },
+      {
+        "id": "q3",
+        "question": "Почему задачи часто теряются?",
+        "options": [
+          { "id": "A", "text": "Их слишком мало" },
+          { "id": "B", "text": "Они не записываются в единую систему" },
+          { "id": "C", "text": "Они выполняются слишком быстро" },
+          { "id": "D", "text": "Их выполняют другие люди" }
+        ],
+        "correctOptionId": "B",
+        "explanation": "Правильный ответ: B — задачи не записываются в единую систему."
+      },
+      {
+        "id": "q4",
+        "question": "Что помогает расставлять приоритеты?",
+        "options": [
+          { "id": "A", "text": "Выполнять задачи случайным образом" },
+          { "id": "B", "text": "Делать только самые лёгкие задачи" },
+          { "id": "C", "text": "Делить задачи по важности и срочности" },
+          { "id": "D", "text": "Работать без списка задач" }
+        ],
+        "correctOptionId": "C",
+        "explanation": "Правильный ответ: C — делить задачи по важности и срочности."
+      },
+      {
+        "id": "q5",
+        "question": "Какой подход помогает лучше всего управлять большим количеством задач?",
+        "options": [
+          { "id": "A", "text": "Хранить всё в памяти" },
+          { "id": "B", "text": "Использовать систему task-менеджмента" },
+          { "id": "C", "text": "Работать без структуры" },
+          { "id": "D", "text": "Делать задачи по настроению" }
+        ],
+        "correctOptionId": "B",
+        "explanation": "Правильный ответ: B — использовать систему task-менеджмента."
+      },
+      {
+        "id": "result-scale",
+        "type": "resultScale",
+        "ranges": [
+          {
+            "min": 0,
+            "max": 2,
+            "title": "0–2 правильных ответа",
+            "description": "Возможно, у вас пока нет чёткой системы управления задачами. Попробуйте использовать инструменты для task-менеджмента и фиксировать все задачи в одном месте."
+          },
+          {
+            "min": 3,
+            "max": 4,
+            "title": "3–4 правильных ответа",
+            "description": "У вас уже есть базовая система управления задачами, но её можно улучшить. Попробуйте использовать приоритизацию и визуализацию задач."
+          },
+          {
+            "min": 5,
+            "max": 5,
+            "title": "5 правильных ответов",
+            "description": "Вы отлично управляете своими задачами. Скорее всего, у вас уже есть эффективный workflow и вы умеете структурировать рабочий процесс."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-productivity-2",
+    "slug": "naskolko-effektivno-vy-ispolzuete-digital-instrumenty",
+    "title": "Насколько эффективно вы используете digital-инструменты",
+    "tag": ["Productivity"],
+    "questions": []
+  },
+  {
+    "id": "test-productivity-3",
+    "slug": "kakoy-u-vas-stil-upravleniya-zadachami",
+    "title": "Какой у вас стиль управления задачами",
+    "tag": ["Productivity"],
+    "questions": []
+  },
+  {
+    "id": "test-productivity-4",
+    "slug": "naskolko-horosho-organizovan-vash-rabochiy-protsess",
+    "title": "Насколько хорошо организован ваш рабочий процесс",
+    "tag": ["Productivity"],
+    "questions": []
+  },
+  {
+    "id": "test-productivity-5",
+    "slug": "kakoy-uroven-produktivnosti-u-vashey-komandy",
+    "title": "Какой уровень продуктивности у вашей команды",
+    "tag": ["Productivity"],
+    "questions": []
+  },
+  {
+    "id": "test-productivity-6",
+    "slug": "umeete-li-vy-upravlyat-svoim-vremenem",
+    "title": "Умеете ли вы управлять своим временем",
+    "tag": ["Productivity"],
+    "questions": []
+  },
+  {
+    "id": "test-productivity-7",
+    "slug": "kakie-instrumenty-povyshayut-vashu-effektivnost",
+    "title": "Какие инструменты повышают вашу эффективность",
+    "tag": ["Productivity"],
+    "questions": []
+  },
+  {
+    "id": "test-productivity-8",
+    "slug": "kakoy-tip-workflow-vam-podhodit",
+    "title": "Какой тип workflow вам подходит",
+    "tag": ["Productivity"],
+    "questions": []
+  },
+  {
+    "id": "test-productivity-9",
+    "slug": "naskolko-horosho-vy-organizuete-informatsiyu",
+    "title": "Насколько хорошо вы организуете информацию",
+    "tag": ["Productivity"],
+    "questions": []
+  },
+
+  {
+    "id": "test-automation-1",
+    "slug": "gotov-li-vash-workflow-k-avtomatizatsii",
+    "title": "Готов ли ваш workflow к автоматизации",
+    "tag": ["Automation"],
+    "questions": []
+  },
+  {
+    "id": "test-automation-2",
+    "slug": "kakie-protsessy-vam-stoit-avtomatizirovat",
+    "title": "Какие процессы вам стоит автоматизировать",
+    "tag": ["Automation"],
+    "questions": []
+  },
+  {
+    "id": "test-automation-3",
+    "slug": "naskolko-effektivno-vy-ispolzuete-automation-instrumenty",
+    "title": "Насколько эффективно вы используете automation-инструменты",
+    "tag": ["Automation"],
+    "questions": []
+  },
+  {
+    "id": "test-automation-4",
+    "slug": "podhodit-li-vam-no-code-avtomatizatsiya",
+    "title": "Подходит ли вам no-code автоматизация",
+    "tag": ["Automation"],
+    "questions": []
+  },
+  {
+    "id": "test-automation-5",
+    "slug": "kakie-integratsii-uluchshat-vashu-rabotu",
+    "title": "Какие интеграции улучшат вашу работу",
+    "tag": ["Automation"],
+    "questions": []
+  },
+  {
+    "id": "test-automation-6",
+    "slug": "naskolko-avtomatizirovan-vash-rabochiy-protsess",
+    "title": "Насколько автоматизирован ваш рабочий процесс",
+    "tag": ["Automation"],
+    "questions": []
+  },
+  {
+    "id": "test-automation-7",
+    "slug": "kakie-zadachi-stoit-peredat-avtomatizatsii",
+    "title": "Какие задачи стоит передать автоматизации",
+    "tag": ["Automation"],
+    "questions": []
+  },
+  {
+    "id": "test-automation-8",
+    "slug": "kakoy-uroven-automation-podhodit-vashemu-proektu",
+    "title": "Какой уровень automation подходит вашему проекту",
+    "tag": ["Automation"],
+    "questions": []
+  },
+  {
+    "id": "test-automation-9",
+    "slug": "kakie-instrumenty-automation-vam-podhodit",
+    "title": "Какие инструменты automation вам подходит",
+    "tag": ["Automation"],
+    "questions": []
+  },
+
+  {
+    "id": "test-practice-1",
+    "slug": "kakoy-workflow-podhodit-vashemu-tipu-raboty",
+    "title": "Какой workflow подходит вашему типу работы",
+    "tag": ["Practice"],
+    "questions": []
+  },
+  {
+    "id": "test-practice-2",
+    "slug": "kakie-instrumenty-nuzhny-vashemu-workflow",
+    "title": "Какие инструменты нужны вашему workflow",
+    "tag": ["Practice"],
+    "questions": []
+  },
+  {
+    "id": "test-practice-3",
+    "slug": "naskolko-effektiven-vash-rabochiy-protsess",
+    "title": "Насколько эффективен ваш рабочий процесс",
+    "tag": ["Practice"],
+    "questions": []
+  },
+  {
+    "id": "test-practice-4",
+    "slug": "kakoy-stil-raboty-vam-blizhe",
+    "title": "Какой стиль работы вам ближе",
+    "tag": ["Practice"],
+    "questions": []
+  },
+  {
+    "id": "test-practice-5",
+    "slug": "kakoy-tip-digital-workflow-vam-podhodit",
+    "title": "Какой тип digital-workflow вам подходит",
+    "tag": ["Practice"],
+    "questions": []
+  },
+  {
+    "id": "test-practice-6",
+    "slug": "kakie-servisy-stoit-dobavit-v-vashu-sistemu-raboty",
+    "title": "Какие сервисы стоит добавить в вашу систему работы",
+    "tag": ["Practice"],
+    "questions": []
+  },
+  {
+    "id": "test-practice-7",
+    "slug": "kakoy-u-vas-uroven-digital-organizatsii",
+    "title": "Какой у вас уровень digital-организации",
+    "tag": ["Practice"],
+    "questions": []
+  },
+  {
+    "id": "test-practice-8",
+    "slug": "kakoy-rabochiy-protsess-podhodit-vashemu-proektu",
+    "title": "Какой рабочий процесс подходит вашему проекту",
+    "tag": ["Practice"],
+    "questions": []
+  },
+  {
+    "id": "test-practice-9",
+    "slug": "naskolko-effektivna-vasha-sistema-instrumentov",
+    "title": "Насколько эффективна ваша система инструментов",
+    "tag": ["Practice"],
+    "questions": []
+  }
+]

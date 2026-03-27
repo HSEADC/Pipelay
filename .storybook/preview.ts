@@ -69,10 +69,11 @@ const preview = {
     },
     layout: 'fullscreen',
     backgrounds: {
-      default: 'light',
+      default: 'app',
       values: [
-        { name: 'light', value: '#ffffff' },
+        { name: 'app', value: '#1e1e1e' },
         { name: 'dark', value: '#1a1a1a' },
+        { name: 'light', value: '#ffffff' },
       ],
     },
   },

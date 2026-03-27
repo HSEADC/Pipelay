@@ -3,6 +3,7 @@ export interface PaginationOptions<T> {
   getItems: () => T[];
   pageSize: number;
   renderItem: (item: T) => string;
+  onRendered?: () => void;
 }
 
 export interface PaginationInstance {
@@ -11,7 +12,7 @@ export interface PaginationInstance {
 }
 
 export function createPagination<T>(options: PaginationOptions<T>): PaginationInstance {
-  const { listEl, getItems, pageSize, renderItem } = options;
+  const { listEl, getItems, pageSize, renderItem, onRendered } = options;
 
   const sentinel = document.createElement("div");
   sentinel.setAttribute("aria-hidden", "true");
@@ -22,6 +23,8 @@ export function createPagination<T>(options: PaginationOptions<T>): PaginationIn
 
   let displayedCount = 0;
 
+  const hasMoreItems = (): boolean => displayedCount < getItems().length;
+
   const renderNextPage = (): void => {
     const items = getItems();
     const nextCount = Math.min(displayedCount + pageSize, items.length);
@@ -29,6 +32,7 @@ export function createPagination<T>(options: PaginationOptions<T>): PaginationIn
     const html = slice.map(renderItem).join("");
     if (html) {
       sentinel.insertAdjacentHTML("beforebegin", html);
+      onRendered?.();
     }
     displayedCount = nextCount;
 
@@ -40,15 +44,29 @@ export function createPagination<T>(options: PaginationOptions<T>): PaginationIn
   const observer = new IntersectionObserver(
     (entries) => {
       const [entry] = entries;
-      const items = getItems();
-      if (!entry?.isIntersecting || displayedCount >= items.length) return;
+      if (!entry?.isIntersecting || !hasMoreItems()) return;
       renderNextPage();
-      if (displayedCount >= getItems().length && sentinel instanceof HTMLElement) {
+      if (!hasMoreItems() && sentinel instanceof HTMLElement) {
         observer.unobserve(sentinel);
       }
     },
     { root: null, rootMargin: "160px 0px", threshold: 0 }
   );
+
+  const handleViewportChange = (): void => {
+    if (!hasMoreItems() || !(sentinel instanceof HTMLElement) || sentinel.hidden) return;
+    const rect = sentinel.getBoundingClientRect();
+    const viewportBottom = window.innerHeight || document.documentElement.clientHeight;
+    if (rect.top <= viewportBottom + 160) {
+      renderNextPage();
+      if (!hasMoreItems()) {
+        observer.unobserve(sentinel);
+      }
+    }
+  };
+
+  window.addEventListener("scroll", handleViewportChange, { passive: true });
+  window.addEventListener("resize", handleViewportChange);
 
   const reset = (): void => {
     displayedCount = 0;
@@ -66,7 +84,11 @@ export function createPagination<T>(options: PaginationOptions<T>): PaginationIn
   observer.observe(sentinel);
 
   return {
-    destroy: (): void => observer.unobserve(sentinel),
+    destroy: (): void => {
+      observer.unobserve(sentinel);
+      window.removeEventListener("scroll", handleViewportChange);
+      window.removeEventListener("resize", handleViewportChange);
+    },
     reset,
   };
 }

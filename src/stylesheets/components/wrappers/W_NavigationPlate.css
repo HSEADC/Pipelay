@@ -1,0 +1,14 @@
+.W_NavigationPlate {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x3);
+
+    width: 100%;
+
+    padding: var(--spacing-x3);
+
+    background: var(--color-tertiary);
+    border-radius: var(--border-radius-x4);
+    border: 1px solid var(--color-border-primary);
+}
+

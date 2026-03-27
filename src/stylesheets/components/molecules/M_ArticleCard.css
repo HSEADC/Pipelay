@@ -1,0 +1,69 @@
+.M_ArticleCard {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+
+    padding: var(--spacing-x8) var(--spacing-x6);
+
+    background: var(--color-background-tertiary);
+    border-radius: var(--border-radius-x12);
+}
+
+.M_ArticleCardContent {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-x2);
+
+    max-width: 562px;
+}
+
+.M_ArticleCardTextBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x2);
+}
+
+.M_ArticleCardTitle {
+    color: var(--color-main-yellow-green);
+}
+
+.M_ArticleCardExcerpt {
+    color: var(--color-accent);
+}
+
+.M_ArticleCardTag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    border-radius: var(--border-radius-x5);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.M_ArticleCardTag span {
+    color: var(--color-neon);
+}
+
+.M_ArticleCardActions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--spacing-x4);
+}
+
+.M_ArticleCardIllustrationImage {
+    width: 100%;
+    width: 100px;
+
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+

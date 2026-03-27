@@ -4,32 +4,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Pipelay — материалы о workflows: статьи и тесты о комбинировании и автоматизации digital-инструментов." />
 
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="url image" />
-  <meta property="og:description" content="desc" />
-  <meta property="og:url" content="url" />
-  <meta property="og:title" content="title" />
+  <meta property="og:title" content="Главная" />
+  <meta property="og:description"
+    content="Pipelay — материалы о workflows: статьи и тесты о комбинировании и автоматизации digital-инструментов." />
+  <meta property="og:url" content="/" />
 
-  <meta name="twitter:card" content="url image" />
-  <meta name="twitter:url" content="url" />
-  <meta name="twitter:title" content="title" />
-  <meta name="twitter:description" content="desc" />
-  <meta name="twitter:image" content="url image" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Главная" />
+  <meta name="twitter:description"
+    content="Pipelay — материалы о workflows: статьи и тесты о комбинировании и автоматизации digital-инструментов." />
+  <meta name="twitter:url" content="/" />
 
   <title>Главная</title>
 </head>
 
 <body>
-  <nav>
-    <a href="./">Главная</a>
-    <span>|</span>
-    <a href="./articles/">Статьи</a>
-  </nav>
-  <main>
-    <input id="articles-search" type="search" placeholder="Поиск по статьям" />
-    <section id="articles-root"></section>
-  </main>
+  <div class="Layout">
+    <W_MobileNav></W_MobileNav>
+    <M_Header></M_Header>
+    <div class="LayoutContent">
+      <O_Sidebar></O_Sidebar>
+      <main>
+        <div class="LayoutContentMain">
+          <div class="W_MainPageHeroTextBlock">
+            <h1>Узнайте, как создавать workflows</h1>
+            <h4>Читайте статьи о том как: комбинировать и автоматизировать digital-инструменты для работы и творчества
+            </h4>
+          </div>
+          <section class="M_MainPageArticlesBlock">
+            <div class="C_MainPageArticlesFilterButtons">
+              <A_FilterButton data-filter-key="ArticleProductivity">Продуктивность</A_FilterButton>
+              <A_FilterButton data-filter-key="ArticleAutomation">Автоматизация</A_FilterButton>
+              <A_FilterButton data-filter-key="ArticlePractice">Практика</A_FilterButton>
+            </div>
+            <div class="M_MainPageBenefitItem">
+              <Q_Icon data-icon="Triangle" data-alt="Triangle"></Q_Icon>
+              <span class="text-label">Руководства, примеры из практики и советы по использованию workflows и
+                повышению
+                производительности</span>
+            </div>
+            <div class="C_MainPageArticlesList" id="articles-root"></div>
+            <div class="M_MainPageBenefitLinkItem">
+              <span class="text-label">Перейти к статьям</span>
+              <a href="/articles">
+                <Q_Icon data-icon="Arrow_Circle_Right" data-alt="Arrow_Circle_Right"></Q_Icon>
+              </a>
+            </div>
+          </section>
+          <div class="W_MainPageTestsTextBlock">
+            <h1>Проходите тесты на знание workflows</h1>
+            <h4>Читайте статьи о том как: комбинировать и автоматизировать digital-инструменты для работы и творчества
+            </h4>
+          </div>
+          <section class="M_MainPageTestsBlock">
+            <div class="C_MainPageTestsFilterButtons">
+              <A_FilterButton data-filter-key="TestProductivity">Продуктивность</A_FilterButton>
+              <A_FilterButton data-filter-key="TestAutomation">Автоматизация</A_FilterButton>
+              <A_FilterButton data-filter-key="TestPractice">Практика</A_FilterButton>
+            </div>
+            <div class="M_MainPageBenefitItem">
+              <Q_Icon data-icon="Triangle" data-alt="Triangle"></Q_Icon>
+              <span class="text-label">Руководства, примеры из практики и советы по использованию workflows и повышению
+                производительности</span>
+            </div>
+            <div class="C_MainPageTestsList" id="tests-root"></div>
+            <div class="M_MainPageBenefitLinkItem">
+              <span class="text-label">Перейти к тестам</span>
+              <a href="/tests">
+                <Q_Icon data-icon="Arrow_Circle_Right" data-alt="Arrow_Circle_Right"></Q_Icon>
+              </a>
+            </div>
+          </section>
+          <M_Footer></M_Footer>
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="LayoutStar"></div>
 </body>
 
 </html>

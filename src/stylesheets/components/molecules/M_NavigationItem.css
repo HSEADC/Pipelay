@@ -1,0 +1,25 @@
+.M_NavigationItem {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.M_NavigationItemLabel {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-accent);
+
+    border-radius: var(--border-radius-x1);
+
+    padding-inline: var(--spacing-x1);
+    padding-block: var(--spacing-x05);
+}
+
+.M_NavigationItem[aria-current="page"] .M_NavigationItemLabel {
+    color: var(--color-text-tertiary);
+
+    background-color: var(--color-main-green);
+}
+

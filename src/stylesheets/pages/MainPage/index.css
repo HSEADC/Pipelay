@@ -1,0 +1,103 @@
+.W_MainPageHeroTextBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x4);
+}
+
+.W_MainPageHeroTextBlock h1, .W_MainPageHeroTextBlock h4 {
+    color: var(--color-text-primary);
+}
+
+.W_MainPageHeroTextBlock h4 {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.M_MainPageArticlesBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x16);
+
+    width: 100%;
+}
+
+.M_MainPageTestsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x16);
+
+    width: 100%;
+}
+
+.W_MainPageTestsTextBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-x4);
+}
+
+.W_MainPageTestsTextBlock h1, .W_MainPageTestsTextBlock h4 {
+    color: var(--color-text-primary);
+}
+
+.W_MainPageTestsTextBlock h4 {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.M_MainPageBenefitItem {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    border-radius: var(--border-radius-x5);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.M_MainPageBenefitItem span {
+    color: var(--color-neon);
+}
+
+.M_MainPageBenefitLinkItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-x2);
+
+    padding: var(--spacing-x2) var(--spacing-x3);
+
+    border-radius: var(--border-radius-x5);
+    border: 1px solid var(--color-border-secondary);
+}
+
+.M_MainPageBenefitLinkItem span {
+    color: var(--color-neon);
+}
+
+.C_MainPageArticlesFilterButtons, .C_MainPageTestsFilterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--spacing-x5);
+}
+
+.C_MainPageArticlesList {
+    display: flex;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+}
+
+.C_MainPageTestsList {
+    display: flex;
+    gap: var(--spacing-x4);
+
+    width: 100%;
+}
+
+@media (max-width: 1280px) {
+    .C_MainPageTestsList, .C_MainPageArticlesList {
+        flex-direction: column;
+    }
+}

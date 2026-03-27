@@ -1,0 +1,21 @@
+.M_Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--spacing-x3);
+
+    background: var(--color-secondary);
+    border-radius: var(--border-radius-x8);
+    border: 2px solid var(--color-border-primary);
+}
+
+.M_HeaderControls {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x2);
+}
+
+.M_HeaderTitle {
+    color: var(--color-text-primary);
+}

@@ -2,3 +2,5 @@ node_modules
 pnpm-debug.log*
 debug-storybook.log*
 .thumbs
+.env
+storybook-static

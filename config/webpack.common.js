@@ -2,6 +2,8 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 
+require("dotenv").config();
+
 const htmlWebpackPlugins = require("./webpack.pages");
 const htmlWebpackPartialsPlugins = require("./webpack.partials");
 
@@ -12,6 +14,10 @@ module.exports = {
   entry: {
     index: "./src/index.ts",
     articles: "./src/pages/ArticlesPage/index.ts",
+    articlePage: "./src/pages/ArticlePage/index.ts",
+    testsPage: "./src/pages/TestsPage/index.ts",
+    testPage: "./src/pages/TestPage/index.ts",
+    aboutPage: "./src/pages/AboutPage/index.ts",
   },
   resolve: {
     extensions: [".ts", ".js", ".json"],
@@ -64,22 +70,35 @@ module.exports = {
   },
   plugins: [
     ...htmlWebpackPlugins,
-    // ...htmlWebpackPartialsPlugins,
+    new webpack.DefinePlugin({
+      appBaseUrl: JSON.stringify(
+        (process.env.APP_BASE_URL || "")
+          .trim()
+          .replace(/^"|"$/g, "")
+          .replace(/\/$/, ""),
+      ),
+    }),
+    ...htmlWebpackPartialsPlugins,
     new webpack.HotModuleReplacementPlugin(),
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: "src/images",
-          to: "images",
+          from: "src/assets/images",
+          to: "assets/images",
+          noErrorOnMissing: true,
+        },
+        {
+          from: "src/assets/icons",
+          to: "assets/icons",
           noErrorOnMissing: true,
         },
       ],
     }),
-    // new FaviconsWebpackPlugin({
-    //   logo: "./src/images/favicon.png",
-    //   cache: true,
-    //   mode: "webapp",
-    // }),
+    new FaviconsWebpackPlugin({
+      logo: "./src/assets/favicon/favicon.png",
+      cache: true,
+      mode: "webapp",
+    }),
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
