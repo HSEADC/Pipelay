@@ -17,7 +17,7 @@ describe("constants", () => {
 
   describe("ICONS_BASE_PATH", () => {
     it("указывает путь к иконкам", () => {
-      expect(ICONS_BASE_PATH).toBe("/assets/icons");
+      expect(ICONS_BASE_PATH).toBe("https://hseadc.github.io/Pipelay/assets/icons");
     });
   });
 });
