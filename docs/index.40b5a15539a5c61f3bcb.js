@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 515:
+/***/ 856:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
@@ -36,6 +36,31 @@ var getArticleCards = function getArticleCards() {
 ;// ./src/entities/Article/index.ts
 
 
+;// ./src/entities/Test/data/tests.json
+const tests_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"test-productivity-1","slug":"kakoy-tip-sistemy-produktivnosti-podhodit-vam","title":"Какой тип системы продуктивности подходит вам","tag":["Productivity"],"questions":[{"id":"q1","question":"Как лучше всего фиксировать новые задачи?","options":[{"id":"A","text":"Запоминать их"},{"id":"B","text":"Записывать в разных местах"},{"id":"C","text":"Сразу добавлять в единую систему задач"},{"id":"D","text":"Оставлять в чатах"}],"correctOptionId":"C","explanation":"Правильный ответ: C — сразу добавлять в единую систему задач."},{"id":"q2","question":"Что помогает лучше всего контролировать процесс выполнения задач?","options":[{"id":"A","text":"Хранить задачи в голове"},{"id":"B","text":"Использовать визуальную систему, например доску задач"},{"id":"C","text":"Делать всё сразу"},{"id":"D","text":"Работать без плана"}],"correctOptionId":"B","explanation":"Правильный ответ: B — использовать визуальную систему задач."},{"id":"q3","question":"Почему задачи часто теряются?","options":[{"id":"A","text":"Их слишком мало"},{"id":"B","text":"Они не записываются в единую систему"},{"id":"C","text":"Они выполняются слишком быстро"},{"id":"D","text":"Их выполняют другие люди"}],"correctOptionId":"B","explanation":"Правильный ответ: B — задачи не записываются в единую систему."},{"id":"q4","question":"Что помогает расставлять приоритеты?","options":[{"id":"A","text":"Выполнять задачи случайным образом"},{"id":"B","text":"Делать только самые лёгкие задачи"},{"id":"C","text":"Делить задачи по важности и срочности"},{"id":"D","text":"Работать без списка задач"}],"correctOptionId":"C","explanation":"Правильный ответ: C — делить задачи по важности и срочности."},{"id":"q5","question":"Какой подход помогает лучше всего управлять большим количеством задач?","options":[{"id":"A","text":"Хранить всё в памяти"},{"id":"B","text":"Использовать систему task-менеджмента"},{"id":"C","text":"Работать без структуры"},{"id":"D","text":"Делать задачи по настроению"}],"correctOptionId":"B","explanation":"Правильный ответ: B — использовать систему task-менеджмента."},{"id":"result-scale","type":"resultScale","ranges":[{"min":0,"max":2,"title":"0–2 правильных ответа","description":"Возможно, у вас пока нет чёткой системы управления задачами. Попробуйте использовать инструменты для task-менеджмента и фиксировать все задачи в одном месте."},{"min":3,"max":4,"title":"3–4 правильных ответа","description":"У вас уже есть базовая система управления задачами, но её можно улучшить. Попробуйте использовать приоритизацию и визуализацию задач."},{"min":5,"max":5,"title":"5 правильных ответов","description":"Вы отлично управляете своими задачами. Скорее всего, у вас уже есть эффективный workflow и вы умеете структурировать рабочий процесс."}]}]},{"id":"test-productivity-2","slug":"naskolko-effektivno-vy-ispolzuete-digital-instrumenty","title":"Насколько эффективно вы используете digital-инструменты","tag":["Productivity"],"questions":[]},{"id":"test-productivity-3","slug":"kakoy-u-vas-stil-upravleniya-zadachami","title":"Какой у вас стиль управления задачами","tag":["Productivity"],"questions":[]},{"id":"test-productivity-4","slug":"naskolko-horosho-organizovan-vash-rabochiy-protsess","title":"Насколько хорошо организован ваш рабочий процесс","tag":["Productivity"],"questions":[]},{"id":"test-productivity-5","slug":"kakoy-uroven-produktivnosti-u-vashey-komandy","title":"Какой уровень продуктивности у вашей команды","tag":["Productivity"],"questions":[]},{"id":"test-productivity-6","slug":"umeete-li-vy-upravlyat-svoim-vremenem","title":"Умеете ли вы управлять своим временем","tag":["Productivity"],"questions":[]},{"id":"test-productivity-7","slug":"kakie-instrumenty-povyshayut-vashu-effektivnost","title":"Какие инструменты повышают вашу эффективность","tag":["Productivity"],"questions":[]},{"id":"test-productivity-8","slug":"kakoy-tip-workflow-vam-podhodit","title":"Какой тип workflow вам подходит","tag":["Productivity"],"questions":[]},{"id":"test-productivity-9","slug":"naskolko-horosho-vy-organizuete-informatsiyu","title":"Насколько хорошо вы организуете информацию","tag":["Productivity"],"questions":[]},{"id":"test-automation-1","slug":"gotov-li-vash-workflow-k-avtomatizatsii","title":"Готов ли ваш workflow к автоматизации","tag":["Automation"],"questions":[]},{"id":"test-automation-2","slug":"kakie-protsessy-vam-stoit-avtomatizirovat","title":"Какие процессы вам стоит автоматизировать","tag":["Automation"],"questions":[]},{"id":"test-automation-3","slug":"naskolko-effektivno-vy-ispolzuete-automation-instrumenty","title":"Насколько эффективно вы используете automation-инструменты","tag":["Automation"],"questions":[]},{"id":"test-automation-4","slug":"podhodit-li-vam-no-code-avtomatizatsiya","title":"Подходит ли вам no-code автоматизация","tag":["Automation"],"questions":[]},{"id":"test-automation-5","slug":"kakie-integratsii-uluchshat-vashu-rabotu","title":"Какие интеграции улучшат вашу работу","tag":["Automation"],"questions":[]},{"id":"test-automation-6","slug":"naskolko-avtomatizirovan-vash-rabochiy-protsess","title":"Насколько автоматизирован ваш рабочий процесс","tag":["Automation"],"questions":[]},{"id":"test-automation-7","slug":"kakie-zadachi-stoit-peredat-avtomatizatsii","title":"Какие задачи стоит передать автоматизации","tag":["Automation"],"questions":[]},{"id":"test-automation-8","slug":"kakoy-uroven-automation-podhodit-vashemu-proektu","title":"Какой уровень automation подходит вашему проекту","tag":["Automation"],"questions":[]},{"id":"test-automation-9","slug":"kakie-instrumenty-automation-vam-podhodit","title":"Какие инструменты automation вам подходит","tag":["Automation"],"questions":[]},{"id":"test-practice-1","slug":"kakoy-workflow-podhodit-vashemu-tipu-raboty","title":"Какой workflow подходит вашему типу работы","tag":["Practice"],"questions":[]},{"id":"test-practice-2","slug":"kakie-instrumenty-nuzhny-vashemu-workflow","title":"Какие инструменты нужны вашему workflow","tag":["Practice"],"questions":[]},{"id":"test-practice-3","slug":"naskolko-effektiven-vash-rabochiy-protsess","title":"Насколько эффективен ваш рабочий процесс","tag":["Practice"],"questions":[]},{"id":"test-practice-4","slug":"kakoy-stil-raboty-vam-blizhe","title":"Какой стиль работы вам ближе","tag":["Practice"],"questions":[]},{"id":"test-practice-5","slug":"kakoy-tip-digital-workflow-vam-podhodit","title":"Какой тип digital-workflow вам подходит","tag":["Practice"],"questions":[]},{"id":"test-practice-6","slug":"kakie-servisy-stoit-dobavit-v-vashu-sistemu-raboty","title":"Какие сервисы стоит добавить в вашу систему работы","tag":["Practice"],"questions":[]},{"id":"test-practice-7","slug":"kakoy-u-vas-uroven-digital-organizatsii","title":"Какой у вас уровень digital-организации","tag":["Practice"],"questions":[]},{"id":"test-practice-8","slug":"kakoy-rabochiy-protsess-podhodit-vashemu-proektu","title":"Какой рабочий процесс подходит вашему проекту","tag":["Practice"],"questions":[]},{"id":"test-practice-9","slug":"naskolko-effektivna-vasha-sistema-instrumentov","title":"Насколько эффективна ваша система инструментов","tag":["Practice"],"questions":[]}]');
+;// ./src/entities/Test/model/types.ts
+
+var TestCardSchema = external/* object */.Ikc({
+  id: external/* string */.YjP().min(1),
+  slug: external/* string */.YjP().min(1).max(150),
+  title: external/* string */.YjP().min(1).max(160),
+  tag: external/* array */.YOg(external/* string */.YjP()).min(1).max(3),
+  questions: external/* array */.YOg(external/* unknown */.L5J()).optional()
+}).strict();
+var TestCardListSchema = external/* array */.YOg(TestCardSchema);
+;// ./src/entities/Test/api/slice.ts
+
+
+var getTestCards = function getTestCards() {
+  return TestCardListSchema.parse(tests_namespaceObject);
+};
+;// ./src/entities/Test/api/index.ts
+
+;// ./src/entities/Test/model/index.ts
+
+;// ./src/entities/Test/index.ts
+
+
 ;// ./src/shared/config/constants.ts
 var ICONS_BASE_PATH = "/assets/icons";
 var ARTICLE_TAG_LABELS = {
@@ -45,112 +70,6 @@ var ARTICLE_TAG_LABELS = {
 };
 ;// ./src/shared/config/index.ts
 
-;// ./src/shared/lib/pagination.ts
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-function createPagination(options) {
-  var listEl = options.listEl,
-    getItems = options.getItems,
-    pageSize = options.pageSize,
-    renderItem = options.renderItem,
-    onRendered = options.onRendered;
-  var sentinel = document.createElement("div");
-  sentinel.setAttribute("aria-hidden", "true");
-  if (sentinel instanceof HTMLElement) {
-    sentinel.style.minHeight = "1px";
-  }
-  listEl.appendChild(sentinel);
-  var displayedCount = 0;
-  var hasMoreItems = function hasMoreItems() {
-    return displayedCount < getItems().length;
-  };
-  var renderNextPage = function renderNextPage() {
-    var items = getItems();
-    var nextCount = Math.min(displayedCount + pageSize, items.length);
-    var slice = items.slice(displayedCount, nextCount);
-    var html = slice.map(renderItem).join("");
-    if (html) {
-      sentinel.insertAdjacentHTML("beforebegin", html);
-      onRendered === null || onRendered === void 0 || onRendered();
-    }
-    displayedCount = nextCount;
-    if (displayedCount >= items.length && sentinel instanceof HTMLElement) {
-      sentinel.hidden = true;
-    }
-  };
-  var observer = new IntersectionObserver(function (entries) {
-    var _entries = _slicedToArray(entries, 1),
-      entry = _entries[0];
-    if (!(entry !== null && entry !== void 0 && entry.isIntersecting) || !hasMoreItems()) return;
-    renderNextPage();
-    if (!hasMoreItems() && sentinel instanceof HTMLElement) {
-      observer.unobserve(sentinel);
-    }
-  }, {
-    root: null,
-    rootMargin: "160px 0px",
-    threshold: 0
-  });
-  var handleViewportChange = function handleViewportChange() {
-    if (!hasMoreItems() || !(sentinel instanceof HTMLElement) || sentinel.hidden) return;
-    var rect = sentinel.getBoundingClientRect();
-    var viewportBottom = window.innerHeight || document.documentElement.clientHeight;
-    if (rect.top <= viewportBottom + 160) {
-      renderNextPage();
-      if (!hasMoreItems()) {
-        observer.unobserve(sentinel);
-      }
-    }
-  };
-  window.addEventListener("scroll", handleViewportChange, {
-    passive: true
-  });
-  window.addEventListener("resize", handleViewportChange);
-  var reset = function reset() {
-    displayedCount = 0;
-    while (sentinel.previousElementSibling) {
-      sentinel.previousElementSibling.remove();
-    }
-    if (sentinel instanceof HTMLElement) {
-      sentinel.hidden = false;
-    }
-    renderNextPage();
-    observer.observe(sentinel);
-  };
-  renderNextPage();
-  observer.observe(sentinel);
-  return {
-    destroy: function destroy() {
-      observer.unobserve(sentinel);
-      window.removeEventListener("scroll", handleViewportChange);
-      window.removeEventListener("resize", handleViewportChange);
-    },
-    reset: reset
-  };
-}
-;// ./src/shared/lib/filterByQuery.ts
-var filterByQuery = function filterByQuery(items, query, makeSearchString) {
-  var q = query.trim().toLowerCase();
-  if (!q) {
-    return items;
-  }
-  return items.filter(function (item) {
-    var haystack = makeSearchString(item).toLowerCase();
-    return haystack.indexOf(q) !== -1;
-  });
-};
-;// ./src/shared/ui/molecules/M_SearchInput/index.ts
-function applySearchInputPlaceholder() {
-  var main = document.querySelector("main");
-  var input = document.querySelector("[data-search-input]");
-  if (input && main !== null && main !== void 0 && main.dataset.searchPlaceholder) {
-    input.placeholder = main.dataset.searchPlaceholder;
-  }
-}
 ;// ./src/shared/ui/molecules/M_Header/index.ts
 
 function initHeaderControls() {
@@ -264,6 +183,32 @@ function applyArticleCards() {
     host.replaceWith(card);
   });
 }
+;// ./src/shared/ui/molecules/M_TestCard/index.ts
+function applyTestCards() {
+  var hosts = document.querySelectorAll("M_TestCard");
+  hosts.forEach(function (host) {
+    var _ref, _host$dataset$title, _host$textContent, _host$dataset$url;
+    var title = (_ref = (_host$dataset$title = host.dataset.title) !== null && _host$dataset$title !== void 0 ? _host$dataset$title : (_host$textContent = host.textContent) === null || _host$textContent === void 0 ? void 0 : _host$textContent.trim()) !== null && _ref !== void 0 ? _ref : "";
+    var url = (_host$dataset$url = host.dataset.url) !== null && _host$dataset$url !== void 0 ? _host$dataset$url : "#";
+    var card = document.createElement("article");
+    card.className = "M_TestCard effect-background-blur-primary";
+    var content = document.createElement("div");
+    content.className = "M_TestCardContent";
+    var titleEl = document.createElement("p");
+    titleEl.className = "M_TestCardTitle text-p-1";
+    titleEl.textContent = title;
+    content.appendChild(titleEl);
+    var actions = document.createElement("div");
+    actions.className = "M_TestCardActions";
+    var button = document.createElement("A_Button");
+    button.setAttribute("href", url);
+    button.dataset.label = "Пройти тест";
+    actions.appendChild(button);
+    card.appendChild(content);
+    card.appendChild(actions);
+    host.replaceWith(card);
+  });
+}
 ;// ./src/shared/ui/molecules/index.ts
 
 
@@ -370,41 +315,11 @@ function applyFilterButtons() {
 
 
 
-;// ./src/shared/ui/wrappers/W_MobileNav/index.ts
-function closeMenu(burger, setOpen) {
-  setOpen(false);
-  burger.focus();
-}
-function initMobileNav() {
-  var root = document.querySelector(".W_MobileNav");
-  if (!root) return;
-  var burger = root.querySelector(".W_MobileNavBurger");
-  var overlay = root.querySelector(".W_MobileNavOverlay");
-  if (!burger || !overlay) return;
-  var backdrop = overlay.querySelector(".W_MobileNavBackdrop");
-  var setOpen = function setOpen(open) {
-    burger.setAttribute("aria-expanded", open ? "true" : "false");
-    overlay.toggleAttribute("hidden", !open);
-    overlay.setAttribute("aria-hidden", open ? "false" : "true");
-    document.body.classList.toggle("W_MobileNavBodyLock", open);
-  };
-  burger.addEventListener("click", function () {
-    setOpen(overlay.hasAttribute("hidden"));
-  });
-  backdrop === null || backdrop === void 0 || backdrop.addEventListener("click", function () {
-    closeMenu(burger, setOpen);
-  });
-  overlay.querySelectorAll(".M_NavigationItem").forEach(function (link) {
-    link.addEventListener("click", function () {
-      setOpen(false);
-    });
-  });
-  document.addEventListener("keydown", function (event) {
-    if (event.key !== "Escape") return;
-    if (overlay.hasAttribute("hidden")) return;
-    closeMenu(burger, setOpen);
-  });
-}
+;// ./src/shared/ui/index.ts
+
+
+
+
 ;// ./src/shared/ui/wrappers/W_NavigationPlate/index.ts
 function initNavigationPlate() {
   var hosts = document.querySelectorAll("W_NavigationPlate");
@@ -460,69 +375,77 @@ function initNavigationPlate() {
     });
   });
 }
-;// ./src/shared/ui/index.ts
+;// ./src/shared/ui/wrappers/W_MobileNav/index.ts
+function closeMenu(burger, setOpen) {
+  setOpen(false);
+  burger.focus();
+}
+function initMobileNav() {
+  var root = document.querySelector(".W_MobileNav");
+  if (!root) return;
+  var burger = root.querySelector(".W_MobileNavBurger");
+  var overlay = root.querySelector(".W_MobileNavOverlay");
+  if (!burger || !overlay) return;
+  var backdrop = overlay.querySelector(".W_MobileNavBackdrop");
+  var setOpen = function setOpen(open) {
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+    overlay.toggleAttribute("hidden", !open);
+    overlay.setAttribute("aria-hidden", open ? "false" : "true");
+    document.body.classList.toggle("W_MobileNavBodyLock", open);
+  };
+  burger.addEventListener("click", function () {
+    setOpen(overlay.hasAttribute("hidden"));
+  });
+  backdrop === null || backdrop === void 0 || backdrop.addEventListener("click", function () {
+    closeMenu(burger, setOpen);
+  });
+  overlay.querySelectorAll(".M_NavigationItem").forEach(function (link) {
+    link.addEventListener("click", function () {
+      setOpen(false);
+    });
+  });
+  document.addEventListener("keydown", function (event) {
+    if (event.key !== "Escape") return;
+    if (overlay.hasAttribute("hidden")) return;
+    closeMenu(burger, setOpen);
+  });
+}
+;// ./src/index.ts
 
 
 
 
-;// ./src/pages/ArticlesPage/index.ts
 
 
 
-
-
-function bootstrap() {
+function setupArticleFilters(allArticles) {
   var _filterButtons$0$data, _filterButtons$;
-  applySearchInputPlaceholder();
-  initNavigationPlate();
-  initHeaderControls();
-  applyNavigationItems();
-  initMobileNav();
-  applyFilterButtons();
-  var listEl = document.getElementById("articles-root");
-  var searchInput = document.querySelector("[data-search-input]");
-  var filterButtons = document.querySelectorAll(".C_ArticlesPageArticlesFilterButtons .A_FilterButton");
-  if (!listEl) return;
-  var allArticles = getArticleCards();
-  var activeFilterKey = (_filterButtons$0$data = (_filterButtons$ = filterButtons[0]) === null || _filterButtons$ === void 0 ? void 0 : _filterButtons$.dataset.filterKey) !== null && _filterButtons$0$data !== void 0 ? _filterButtons$0$data : null;
-  var filteredArticles = [];
-  var _createPagination = createPagination({
-      listEl: listEl,
-      getItems: function getItems() {
-        return filteredArticles;
-      },
-      pageSize: 4,
-      renderItem: function renderItem(article) {
-        var _article$tags$, _article$tags, _ARTICLE_TAG_LABELS$t;
-        var tagKey = (_article$tags$ = (_article$tags = article.tags) === null || _article$tags === void 0 ? void 0 : _article$tags[0]) !== null && _article$tags$ !== void 0 ? _article$tags$ : "";
-        var tagLabel = (_ARTICLE_TAG_LABELS$t = ARTICLE_TAG_LABELS[tagKey]) !== null && _ARTICLE_TAG_LABELS$t !== void 0 ? _ARTICLE_TAG_LABELS$t : tagKey;
-        return "\n        <M_ArticleCard\n          data-title=\"".concat(article.title, "\"\n          data-excerpt=\"").concat(article.excerpt, "\"\n          data-tag=\"").concat(tagLabel, "\"\n          data-url=\"/article/?id=").concat(encodeURIComponent(article.id), "\"\n        ></M_ArticleCard>\n      ");
-      },
-      onRendered: function onRendered() {
-        applyArticleCards();
-        applyButtonProps();
-        applyIcons();
-      }
-    }),
-    reset = _createPagination.reset;
+  var root = document.querySelector(".C_MainPageArticlesList");
+  var filterButtons = document.querySelectorAll(".C_MainPageArticlesFilterButtons .A_FilterButton");
+  if (!root || !filterButtons.length) return;
   var filterToTagKey = {
     ArticleProductivity: "Productivity",
     ArticleAutomation: "Automation",
     ArticlePractice: "Practice"
   };
-  var applyAllFilters = function applyAllFilters() {
-    var _filterToTagKey$activ, _searchInput$value;
-    var tagKey = activeFilterKey ? (_filterToTagKey$activ = filterToTagKey[activeFilterKey]) !== null && _filterToTagKey$activ !== void 0 ? _filterToTagKey$activ : null : null;
-    var byTag = tagKey != null ? allArticles.filter(function (article) {
+  var activeFilterKey = (_filterButtons$0$data = (_filterButtons$ = filterButtons[0]) === null || _filterButtons$ === void 0 ? void 0 : _filterButtons$.dataset.filterKey) !== null && _filterButtons$0$data !== void 0 ? _filterButtons$0$data : null;
+  var renderCards = function renderCards(filterKey) {
+    var _filterToTagKey$filte;
+    var tagKey = filterKey ? (_filterToTagKey$filte = filterToTagKey[filterKey]) !== null && _filterToTagKey$filte !== void 0 ? _filterToTagKey$filte : null : null;
+    var source = tagKey != null ? allArticles.filter(function (article) {
       var tags = article.tags;
       if (!tags) return false;
       return tags.indexOf(tagKey) !== -1;
     }) : allArticles;
-    var query = (_searchInput$value = searchInput === null || searchInput === void 0 ? void 0 : searchInput.value) !== null && _searchInput$value !== void 0 ? _searchInput$value : "";
-    filteredArticles = query ? filterByQuery(byTag, query, function (article) {
-      return "".concat(article.title, " ").concat(article.excerpt);
-    }) : byTag;
-    reset();
+    var items = source.slice(0, 2);
+    root.innerHTML = items.map(function (article) {
+      var _ARTICLE_TAG_LABELS, _article$tags$, _article$tags;
+      return "\n        <M_ArticleCard\n          data-title=\"".concat(article.title, "\"\n          data-excerpt=\"").concat(article.excerpt, "\"\n          data-tag=\"").concat((_ARTICLE_TAG_LABELS = ARTICLE_TAG_LABELS[(_article$tags$ = (_article$tags = article.tags) === null || _article$tags === void 0 ? void 0 : _article$tags[0]) !== null && _article$tags$ !== void 0 ? _article$tags$ : ""]) !== null && _ARTICLE_TAG_LABELS !== void 0 ? _ARTICLE_TAG_LABELS : "", "\"\n          data-url=\"/article/?id=").concat(encodeURIComponent(article.id), "\"\n        ></M_ArticleCard>\n      ");
+    }).join("");
+    applyArticleCards();
+    applyButtonProps();
+    applyFilterButtons();
+    applyIcons();
   };
   var updateButtons = function updateButtons() {
     filterButtons.forEach(function (btn) {
@@ -531,13 +454,6 @@ function bootstrap() {
       btn.dataset.state = activeFilterKey === key ? "" : "inactive";
     });
   };
-  updateButtons();
-  applyAllFilters();
-  if (searchInput) {
-    searchInput.addEventListener("input", function () {
-      applyAllFilters();
-    });
-  }
   filterButtons.forEach(function (btn) {
     var key = btn.dataset.filterKey;
     if (!key) return;
@@ -545,9 +461,68 @@ function bootstrap() {
       if (activeFilterKey === key) return;
       activeFilterKey = key;
       updateButtons();
-      applyAllFilters();
+      renderCards(activeFilterKey);
     });
   });
+  renderCards(activeFilterKey);
+  updateButtons();
+}
+function setupTestFilters(allTests) {
+  var _filterButtons$0$data2, _filterButtons$2;
+  var root = document.querySelector(".C_MainPageTestsList");
+  var filterButtons = document.querySelectorAll(".C_MainPageTestsFilterButtons .A_FilterButton");
+  if (!root || !filterButtons.length) return;
+  var filterToTagKey = {
+    TestProductivity: "Productivity",
+    TestAutomation: "Automation",
+    TestPractice: "Practice"
+  };
+  var activeFilterKey = (_filterButtons$0$data2 = (_filterButtons$2 = filterButtons[0]) === null || _filterButtons$2 === void 0 ? void 0 : _filterButtons$2.dataset.filterKey) !== null && _filterButtons$0$data2 !== void 0 ? _filterButtons$0$data2 : null;
+  var renderCards = function renderCards(filterKey) {
+    var _filterToTagKey$filte2;
+    var tagKey = filterKey ? (_filterToTagKey$filte2 = filterToTagKey[filterKey]) !== null && _filterToTagKey$filte2 !== void 0 ? _filterToTagKey$filte2 : null : null;
+    var source = tagKey != null ? allTests.filter(function (test) {
+      var tags = test.tag;
+      if (!tags) return false;
+      return tags.indexOf(tagKey) !== -1;
+    }) : allTests;
+    var items = source.slice(0, 3);
+    root.innerHTML = items.map(function (test) {
+      return "\n        <M_TestCard\n          data-title=\"".concat(test.title, "\"\n          data-url=\"/test/?id=").concat(encodeURIComponent(test.id), "\"\n        ></M_TestCard>\n      ");
+    }).join("");
+    applyTestCards();
+    applyButtonProps();
+  };
+  var updateButtons = function updateButtons() {
+    filterButtons.forEach(function (btn) {
+      var key = btn.dataset.filterKey;
+      if (!key) return;
+      btn.dataset.state = activeFilterKey === key ? "" : "inactive";
+    });
+  };
+  filterButtons.forEach(function (btn) {
+    var key = btn.dataset.filterKey;
+    if (!key) return;
+    btn.addEventListener("click", function () {
+      if (activeFilterKey === key) return;
+      activeFilterKey = key;
+      updateButtons();
+      renderCards(activeFilterKey);
+    });
+  });
+  renderCards(activeFilterKey);
+  updateButtons();
+}
+function bootstrap() {
+  initNavigationPlate();
+  initHeaderControls();
+  applyNavigationItems();
+  initMobileNav();
+  var allArticles = getArticleCards();
+  var allTests = getTestCards();
+  applyFilterButtons();
+  setupArticleFilters(allArticles);
+  setupTestFilters(allTests);
 }
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", bootstrap);
@@ -565,7 +540,7 @@ if (document.readyState === "loading") {
     if(true) {
       (function() {
         var localsJsonString = undefined;
-        // 1774655710127
+        // 1774656082266
         var cssReload = __webpack_require__(417)(module.id, {});
         // only invalidate when locals change
         if (
@@ -690,18 +665,18 @@ if (document.readyState === "loading") {
 /******/ 		// This function allow to reference all chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + "articles" + "." + "96a16a98d6aa4d2a00e1" + ".css";
+/******/ 			return "" + "index" + "." + "96a16a98d6aa4d2a00e1" + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/get update manifest filename */
 /******/ 	(() => {
-/******/ 		__webpack_require__.hmrF = () => ("articles." + __webpack_require__.h() + ".hot-update.json");
+/******/ 		__webpack_require__.hmrF = () => ("index." + __webpack_require__.h() + ".hot-update.json");
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3ebd285f84fc660fe2fb")
+/******/ 		__webpack_require__.h = () => ("526d9183736b3a760a4e")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1301,7 +1276,7 @@ if (document.readyState === "loading") {
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = __webpack_require__.hmrS_jsonp = __webpack_require__.hmrS_jsonp || {
-/******/ 			178: 0
+/******/ 			57: 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -1837,7 +1812,7 @@ if (document.readyState === "loading") {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [96], () => (__webpack_require__(515)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [96], () => (__webpack_require__(856)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

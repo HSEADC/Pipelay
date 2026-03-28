@@ -2,49 +2,134 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 931:
+/***/ 425:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
 // EXTERNAL MODULE: ./src/index.css
 var src = __webpack_require__(962);
-;// ./src/entities/Article/data/articles.json
-const articles_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"article-kak-perestat-teryat-zadachi-effektivnye-sistemy-task-menedzhmenta","slug":"kak-perestat-teryat-zadachi-effektivnye-sistemy-task-menedzhmenta","title":"Как перестать терять задачи: эффективные системы task-менеджмента","excerpt":"Обзор подходов к управлению задачами и инструментов, которые помогают держать всё под контролем","contentMarkdown":"Современная работа редко ограничивается одной задачей. Обычный специалист одновременно ведет несколько проектов, отвечает на сообщения, планирует встречи и выполняет десятки мелких задач. Без системы управления задачами все это быстро превращается в хаос: задачи забываются, дедлайны сдвигаются, а список дел постоянно растет.\\n\\nЭффективная система task-менеджмента помогает структурировать работу, расставлять приоритеты и держать все задачи под контролем. В этой статье разберем основные подходы к управлению задачами и инструменты, которые помогают организовать рабочий процесс.\\n\\n## Почему задачи теряются\\n\\nЧаще всего задачи теряются не из-за большого количества работы, а из-за отсутствия системы. Когда задачи хранятся в разных местах - в заметках, чатах, письмах или просто в голове - становится сложно отслеживать их выполнение.\\n\\nОсновные причины потери задач:\\n\\n- задачи фиксируются в разных сервисах;\\n- отсутствует единый список дел;\\n- нет четких приоритетов;\\n- задачи не разбиваются на конкретные шаги.\\n\\n## Метод \\"Единого списка задач\\"\\n\\nЧаще всего задачи теряются не из-за большого количества работы, а из-за отсутствия системы. Когда задачи хранятся в разных местах - в заметках, чатах, письмах или просто в голове - становится сложно отслеживать их выполнение.\\n\\n- все задачи находятся в одном пространстве;\\n- не дублируются в голосе и чате;\\n- становятся понятны объемы дел.\\n\\n## Метод Kanban\\n\\nKanban - популярный метод управления задачами, который часто используется в командах и IT-проектах. Он основан на визуализации рабочего процесса.\\n\\nЗадачи размещаются на доске и перемещаются между колонками, например:\\n\\n- Сделать;\\n- В процессе;\\n- Готово.\\n\\nТакой формат помогает быстро понять, на каком этапе находится каждая задача, и видеть общий прогресс проекта. Kanban особенно полезен, когда нужно управлять большим количеством задач и проектов одновременно.\\n\\n## Метод приоритизации задач\\n\\nНе все задачи одинаково важны. Иногда список дел становится длинным, и становится трудно понять, с чего начать.\\n\\nПоэтому важно распределять задачи по приоритетам.\\n\\n- важные и срочные;\\n- важные, но не срочные;\\n- второстепенные задачи.\\n\\n## Как построить свою систему управления задачами\\n\\n- 1. Сбор всех задач в одном месте;\\n- 2. Добавление контекста и сроков;\\n- 3. Приоритизация;\\n- 4. Ежедневный обзор;\\n- 5. Завершение.\\n\\nКаждая задача проходит через эти этапы, и пользователь всегда понимает, на каком этапе находится работа. Такой подход убирает хаос и повышает продуктивность.\\n\\n## Итог\\n\\nЭффективный task-менеджмент - это не только список задач, а целая система управления работой. Когда все задачи находятся в одном месте, распределены по приоритетам и встроены в понятный workflow, становится гораздо легче контролировать рабочий процесс.\\n\\nИспользование современных инструментов и методов помогает сократить хаос в задачах, повысить продуктивность и сосредоточиться на действительно важных делах.","tags":["Productivity"]},{"id":"article-minimalistichnyy-workflow-menshe-instrumentov-bolshe-effektivnosti","slug":"minimalistichnyy-workflow-menshe-instrumentov-bolshe-effektivnosti","title":"Минималистичный workflow: меньше инструментов — больше эффективности","excerpt":"Как сократить количество сервисов и создать простой, но мощный рабочий процесс","tags":["Productivity"]},{"id":"article-kak-strukturirovat-informatsiyu-v-digital-srede","slug":"kak-strukturirovat-informatsiyu-v-digital-srede","title":"Как структурировать информацию в digital-среде","excerpt":"Методы организации заметок, файлов и проектов, которые помогают быстрее находить нужную информацию","tags":["Productivity"]},{"id":"article-taym-menedzhment-dlya-digital-spetsialistov","slug":"taym-menedzhment-dlya-digital-spetsialistov","title":"Тайм-менеджмент для digital-специалистов","excerpt":"Практические методы управления временем с использованием современных инструментов","tags":["Productivity"]},{"id":"article-kak-postroit-lichnuyu-sistemu-produktivnosti-iz-tsifrovyh-instrumentov","slug":"kak-postroit-lichnuyu-sistemu-produktivnosti-iz-tsifrovyh-instrumentov","title":"Как построить личную систему продуктивности из цифровых инструментов","excerpt":"Разбираем, как объединить заметки, задачи и планирование в единую систему, которая помогает работать быстрее и не терять информацию","tags":["Productivity"]},{"id":"article-workflow-dlya-upravleniya-zadachami-ot-idei-do-vypolneniya","slug":"workflow-dlya-upravleniya-zadachami-ot-idei-do-vypolneniya","title":"Workflow для управления задачами: от идеи до выполнения","excerpt":"Пошаговый разбор того, как организовать рабочий процесс, чтобы идеи превращались в конкретные результаты","tags":["Productivity"]},{"id":"article-kak-sozdat-produktivnuyu-rabochuyu-sredu","slug":"kak-sozdat-produktivnuyu-rabochuyu-sredu","title":"Как создать продуктивную рабочую среду","excerpt":"Разбираем, какие сервисы и привычки помогают сохранять концентрацию и фокус","tags":["Productivity"]},{"id":"article-sistema-vtorogo-mozga-kak-organizovat-znaniya","slug":"sistema-vtorogo-mozga-kak-organizovat-znaniya","title":"Система второго мозга: как организовать знания","excerpt":"Как построить систему хранения идей, заметок и информации, которая помогает быстрее генерировать новые решения","tags":["Productivity"]},{"id":"article-kak-avtomatizirovat-povtoryayuschiesya-zadachi","slug":"kak-avtomatizirovat-povtoryayuschiesya-zadachi","title":"Как автоматизировать повторяющиеся задачи","excerpt":"Пошаговое руководство по созданию автоматизированных workflow для повседневных процессов.","tags":["Automation"]},{"id":"article-automation-workflow-kak-soedinyat-servisy-mezhdu-soboy","slug":"automation-workflow-kak-soedinyat-servisy-mezhdu-soboy","title":"Automation workflow: как соединять сервисы между собой","excerpt":"Разбираем, как разные инструменты могут работать вместе через интеграции","tags":["Automation"]},{"id":"article-10-protsessov-kotorye-stoit-avtomatizirovat-uzhe-segodnya","slug":"10-protsessov-kotorye-stoit-avtomatizirovat-uzhe-segodnya","title":"10 процессов, которые стоит автоматизировать уже сегодня","excerpt":"Примеры задач, которые можно передать автоматизации и сэкономить время","tags":["Automation"]},{"id":"article-kak-postroit-avtomatizirovannyy-workflow-dlya-kontenta","slug":"kak-postroit-avtomatizirovannyy-workflow-dlya-kontenta","title":"Как построить автоматизированный workflow для контента","excerpt":"Создание pipeline для генерации, редактирования и публикации контента","tags":["Automation"]},{"id":"article-no-code-avtomatizatsiya-instrumenty-kotorye-zamenyayut-ruchnuyu-rabotu","slug":"no-code-avtomatizatsiya-instrumenty-kotorye-zamenyayut-ruchnuyu-rabotu","title":"No-code автоматизация: инструменты, которые заменяют ручную работу","excerpt":"Обзор сервисов, позволяющих автоматизировать процессы без программирования","tags":["Automation"]},{"id":"article-kak-obedinit-ai-instrumenty-v-odin-workflow","slug":"kak-obedinit-ai-instrumenty-v-odin-workflow","title":"Как объединить AI-инструменты в один workflow","excerpt":"Показываем, как использовать AI-сервисы вместе для повышения эффективности","tags":["Automation"]},{"id":"article-avtomatizatsiya-marketinga-instrumenty-i-stsenarii","slug":"avtomatizatsiya-marketinga-instrumenty-i-stsenarii","title":"Автоматизация маркетинга: инструменты и сценарии","excerpt":"Workflow для автоматизации публикаций, аналитики и работы с аудиторией","tags":["Automation"]},{"id":"article-kak-avtomatizirovat-upravlenie-proektami","slug":"kak-avtomatizirovat-upravlenie-proektami","title":"Как автоматизировать управление проектами","excerpt":"Методы автоматизации задач, уведомлений и рабочих процессов команды","tags":["Automation"]},{"id":"article-realnyy-workflow-dizaynera","slug":"realnyy-workflow-dizaynera","title":"Реальный workflow дизайнера","excerpt":"Разбираем набор инструментов и рабочий процесс, который используют дизайнеры","tags":["Practice"]},{"id":"article-kak-vyglyadit-rabochiy-protsess-kontent-kreatora","slug":"kak-vyglyadit-rabochiy-protsess-kontent-kreatora","title":"Как выглядит рабочий процесс контент-креатора","excerpt":"Показываем pipeline от идеи до публикации","tags":["Practice"]},{"id":"article-workflow-startap-komandy","slug":"workflow-startap-komandy","title":"Workflow стартап-команды","excerpt":"Какие инструменты используют команды для управления продуктом","tags":["Practice"]},{"id":"article-kak-organizovat-rabochiy-protsess-razrabotchika","slug":"kak-organizovat-rabochiy-protsess-razrabotchika","title":"Как организовать рабочий процесс разработчика","excerpt":"Инструменты и методы управления задачами и проектами","tags":["Practice"]},{"id":"article-workflow-marketologa-ot-strategii-do-analitiki","slug":"workflow-marketologa-ot-strategii-do-analitiki","title":"Workflow маркетолога: от стратегии до аналитики","excerpt":"Разбираем систему инструментов для маркетинга","tags":["Practice"]},{"id":"article-kak-sozdat-workflow-dlya-obucheniya","slug":"kak-sozdat-workflow-dlya-obucheniya","title":"Как создать workflow для обучения","excerpt":"Показываем, как организовать процесс изучения новых навыков","tags":["Practice"]},{"id":"article-rabochiy-protsess-frilansera","slug":"rabochiy-protsess-frilansera","title":"Рабочий процесс фрилансера","excerpt":"Инструменты для управления проектами и клиентами","tags":["Practice"]},{"id":"article-workflow-dlya-sozdaniya-kontenta","slug":"workflow-dlya-sozdaniya-kontenta","title":"Workflow для создания контента","excerpt":"Пошаговый процесс создания и публикации материалов","tags":["Practice"]}]');
+;// ./src/entities/Test/data/tests.json
+const tests_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"test-productivity-1","slug":"kakoy-tip-sistemy-produktivnosti-podhodit-vam","title":"Какой тип системы продуктивности подходит вам","tag":["Productivity"],"questions":[{"id":"q1","question":"Как лучше всего фиксировать новые задачи?","options":[{"id":"A","text":"Запоминать их"},{"id":"B","text":"Записывать в разных местах"},{"id":"C","text":"Сразу добавлять в единую систему задач"},{"id":"D","text":"Оставлять в чатах"}],"correctOptionId":"C","explanation":"Правильный ответ: C — сразу добавлять в единую систему задач."},{"id":"q2","question":"Что помогает лучше всего контролировать процесс выполнения задач?","options":[{"id":"A","text":"Хранить задачи в голове"},{"id":"B","text":"Использовать визуальную систему, например доску задач"},{"id":"C","text":"Делать всё сразу"},{"id":"D","text":"Работать без плана"}],"correctOptionId":"B","explanation":"Правильный ответ: B — использовать визуальную систему задач."},{"id":"q3","question":"Почему задачи часто теряются?","options":[{"id":"A","text":"Их слишком мало"},{"id":"B","text":"Они не записываются в единую систему"},{"id":"C","text":"Они выполняются слишком быстро"},{"id":"D","text":"Их выполняют другие люди"}],"correctOptionId":"B","explanation":"Правильный ответ: B — задачи не записываются в единую систему."},{"id":"q4","question":"Что помогает расставлять приоритеты?","options":[{"id":"A","text":"Выполнять задачи случайным образом"},{"id":"B","text":"Делать только самые лёгкие задачи"},{"id":"C","text":"Делить задачи по важности и срочности"},{"id":"D","text":"Работать без списка задач"}],"correctOptionId":"C","explanation":"Правильный ответ: C — делить задачи по важности и срочности."},{"id":"q5","question":"Какой подход помогает лучше всего управлять большим количеством задач?","options":[{"id":"A","text":"Хранить всё в памяти"},{"id":"B","text":"Использовать систему task-менеджмента"},{"id":"C","text":"Работать без структуры"},{"id":"D","text":"Делать задачи по настроению"}],"correctOptionId":"B","explanation":"Правильный ответ: B — использовать систему task-менеджмента."},{"id":"result-scale","type":"resultScale","ranges":[{"min":0,"max":2,"title":"0–2 правильных ответа","description":"Возможно, у вас пока нет чёткой системы управления задачами. Попробуйте использовать инструменты для task-менеджмента и фиксировать все задачи в одном месте."},{"min":3,"max":4,"title":"3–4 правильных ответа","description":"У вас уже есть базовая система управления задачами, но её можно улучшить. Попробуйте использовать приоритизацию и визуализацию задач."},{"min":5,"max":5,"title":"5 правильных ответов","description":"Вы отлично управляете своими задачами. Скорее всего, у вас уже есть эффективный workflow и вы умеете структурировать рабочий процесс."}]}]},{"id":"test-productivity-2","slug":"naskolko-effektivno-vy-ispolzuete-digital-instrumenty","title":"Насколько эффективно вы используете digital-инструменты","tag":["Productivity"],"questions":[]},{"id":"test-productivity-3","slug":"kakoy-u-vas-stil-upravleniya-zadachami","title":"Какой у вас стиль управления задачами","tag":["Productivity"],"questions":[]},{"id":"test-productivity-4","slug":"naskolko-horosho-organizovan-vash-rabochiy-protsess","title":"Насколько хорошо организован ваш рабочий процесс","tag":["Productivity"],"questions":[]},{"id":"test-productivity-5","slug":"kakoy-uroven-produktivnosti-u-vashey-komandy","title":"Какой уровень продуктивности у вашей команды","tag":["Productivity"],"questions":[]},{"id":"test-productivity-6","slug":"umeete-li-vy-upravlyat-svoim-vremenem","title":"Умеете ли вы управлять своим временем","tag":["Productivity"],"questions":[]},{"id":"test-productivity-7","slug":"kakie-instrumenty-povyshayut-vashu-effektivnost","title":"Какие инструменты повышают вашу эффективность","tag":["Productivity"],"questions":[]},{"id":"test-productivity-8","slug":"kakoy-tip-workflow-vam-podhodit","title":"Какой тип workflow вам подходит","tag":["Productivity"],"questions":[]},{"id":"test-productivity-9","slug":"naskolko-horosho-vy-organizuete-informatsiyu","title":"Насколько хорошо вы организуете информацию","tag":["Productivity"],"questions":[]},{"id":"test-automation-1","slug":"gotov-li-vash-workflow-k-avtomatizatsii","title":"Готов ли ваш workflow к автоматизации","tag":["Automation"],"questions":[]},{"id":"test-automation-2","slug":"kakie-protsessy-vam-stoit-avtomatizirovat","title":"Какие процессы вам стоит автоматизировать","tag":["Automation"],"questions":[]},{"id":"test-automation-3","slug":"naskolko-effektivno-vy-ispolzuete-automation-instrumenty","title":"Насколько эффективно вы используете automation-инструменты","tag":["Automation"],"questions":[]},{"id":"test-automation-4","slug":"podhodit-li-vam-no-code-avtomatizatsiya","title":"Подходит ли вам no-code автоматизация","tag":["Automation"],"questions":[]},{"id":"test-automation-5","slug":"kakie-integratsii-uluchshat-vashu-rabotu","title":"Какие интеграции улучшат вашу работу","tag":["Automation"],"questions":[]},{"id":"test-automation-6","slug":"naskolko-avtomatizirovan-vash-rabochiy-protsess","title":"Насколько автоматизирован ваш рабочий процесс","tag":["Automation"],"questions":[]},{"id":"test-automation-7","slug":"kakie-zadachi-stoit-peredat-avtomatizatsii","title":"Какие задачи стоит передать автоматизации","tag":["Automation"],"questions":[]},{"id":"test-automation-8","slug":"kakoy-uroven-automation-podhodit-vashemu-proektu","title":"Какой уровень automation подходит вашему проекту","tag":["Automation"],"questions":[]},{"id":"test-automation-9","slug":"kakie-instrumenty-automation-vam-podhodit","title":"Какие инструменты automation вам подходит","tag":["Automation"],"questions":[]},{"id":"test-practice-1","slug":"kakoy-workflow-podhodit-vashemu-tipu-raboty","title":"Какой workflow подходит вашему типу работы","tag":["Practice"],"questions":[]},{"id":"test-practice-2","slug":"kakie-instrumenty-nuzhny-vashemu-workflow","title":"Какие инструменты нужны вашему workflow","tag":["Practice"],"questions":[]},{"id":"test-practice-3","slug":"naskolko-effektiven-vash-rabochiy-protsess","title":"Насколько эффективен ваш рабочий процесс","tag":["Practice"],"questions":[]},{"id":"test-practice-4","slug":"kakoy-stil-raboty-vam-blizhe","title":"Какой стиль работы вам ближе","tag":["Practice"],"questions":[]},{"id":"test-practice-5","slug":"kakoy-tip-digital-workflow-vam-podhodit","title":"Какой тип digital-workflow вам подходит","tag":["Practice"],"questions":[]},{"id":"test-practice-6","slug":"kakie-servisy-stoit-dobavit-v-vashu-sistemu-raboty","title":"Какие сервисы стоит добавить в вашу систему работы","tag":["Practice"],"questions":[]},{"id":"test-practice-7","slug":"kakoy-u-vas-uroven-digital-organizatsii","title":"Какой у вас уровень digital-организации","tag":["Practice"],"questions":[]},{"id":"test-practice-8","slug":"kakoy-rabochiy-protsess-podhodit-vashemu-proektu","title":"Какой рабочий процесс подходит вашему проекту","tag":["Practice"],"questions":[]},{"id":"test-practice-9","slug":"naskolko-effektivna-vasha-sistema-instrumentov","title":"Насколько эффективна ваша система инструментов","tag":["Practice"],"questions":[]}]');
 // EXTERNAL MODULE: ./node_modules/.pnpm/zod@4.3.6/node_modules/zod/v4/classic/external.js + 72 modules
 var external = __webpack_require__(833);
-;// ./src/entities/Article/model/types.ts
+;// ./src/entities/Test/model/types.ts
 
-var ArticleCardSchema = external/* object */.Ikc({
+var TestCardSchema = external/* object */.Ikc({
   id: external/* string */.YjP().min(1),
   slug: external/* string */.YjP().min(1).max(150),
-  title: external/* string */.YjP().min(3).max(120),
-  excerpt: external/* string */.YjP().min(10).max(280),
-  tags: external/* array */.YOg(external/* string */.YjP()).min(1).max(3),
-  contentMarkdown: external/* string */.YjP().min(1).optional()
+  title: external/* string */.YjP().min(1).max(160),
+  tag: external/* array */.YOg(external/* string */.YjP()).min(1).max(3),
+  questions: external/* array */.YOg(external/* unknown */.L5J()).optional()
 }).strict();
-var ArticleCardListSchema = external/* array */.YOg(ArticleCardSchema);
-;// ./src/entities/Article/api/slice.ts
+var TestCardListSchema = external/* array */.YOg(TestCardSchema);
+;// ./src/entities/Test/api/slice.ts
 
 
-var getArticleCards = function getArticleCards() {
-  return ArticleCardListSchema.parse(articles_namespaceObject);
+var getTestCards = function getTestCards() {
+  return TestCardListSchema.parse(tests_namespaceObject);
 };
-;// ./src/entities/Article/api/index.ts
+;// ./src/entities/Test/api/index.ts
 
-;// ./src/entities/Article/model/index.ts
+;// ./src/entities/Test/model/index.ts
 
-;// ./src/entities/Article/index.ts
+;// ./src/entities/Test/index.ts
 
 
-;// ./src/shared/config/constants.ts
-var ICONS_BASE_PATH = "/assets/icons";
-var ARTICLE_TAG_LABELS = {
-  Automation: "Автоматизация",
-  Productivity: "Продуктивность",
-  Practice: "Практика"
-};
-;// ./src/shared/config/index.ts
-
+;// ./src/shared/lib/pagination.ts
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+function createPagination(options) {
+  var listEl = options.listEl,
+    getItems = options.getItems,
+    pageSize = options.pageSize,
+    renderItem = options.renderItem,
+    onRendered = options.onRendered;
+  var sentinel = document.createElement("div");
+  sentinel.setAttribute("aria-hidden", "true");
+  if (sentinel instanceof HTMLElement) {
+    sentinel.style.minHeight = "1px";
+  }
+  listEl.appendChild(sentinel);
+  var displayedCount = 0;
+  var hasMoreItems = function hasMoreItems() {
+    return displayedCount < getItems().length;
+  };
+  var renderNextPage = function renderNextPage() {
+    var items = getItems();
+    var nextCount = Math.min(displayedCount + pageSize, items.length);
+    var slice = items.slice(displayedCount, nextCount);
+    var html = slice.map(renderItem).join("");
+    if (html) {
+      sentinel.insertAdjacentHTML("beforebegin", html);
+      onRendered === null || onRendered === void 0 || onRendered();
+    }
+    displayedCount = nextCount;
+    if (displayedCount >= items.length && sentinel instanceof HTMLElement) {
+      sentinel.hidden = true;
+    }
+  };
+  var observer = new IntersectionObserver(function (entries) {
+    var _entries = _slicedToArray(entries, 1),
+      entry = _entries[0];
+    if (!(entry !== null && entry !== void 0 && entry.isIntersecting) || !hasMoreItems()) return;
+    renderNextPage();
+    if (!hasMoreItems() && sentinel instanceof HTMLElement) {
+      observer.unobserve(sentinel);
+    }
+  }, {
+    root: null,
+    rootMargin: "160px 0px",
+    threshold: 0
+  });
+  var handleViewportChange = function handleViewportChange() {
+    if (!hasMoreItems() || !(sentinel instanceof HTMLElement) || sentinel.hidden) return;
+    var rect = sentinel.getBoundingClientRect();
+    var viewportBottom = window.innerHeight || document.documentElement.clientHeight;
+    if (rect.top <= viewportBottom + 160) {
+      renderNextPage();
+      if (!hasMoreItems()) {
+        observer.unobserve(sentinel);
+      }
+    }
+  };
+  window.addEventListener("scroll", handleViewportChange, {
+    passive: true
+  });
+  window.addEventListener("resize", handleViewportChange);
+  var reset = function reset() {
+    displayedCount = 0;
+    while (sentinel.previousElementSibling) {
+      sentinel.previousElementSibling.remove();
+    }
+    if (sentinel instanceof HTMLElement) {
+      sentinel.hidden = false;
+    }
+    renderNextPage();
+    observer.observe(sentinel);
+  };
+  renderNextPage();
+  observer.observe(sentinel);
+  return {
+    destroy: function destroy() {
+      observer.unobserve(sentinel);
+      window.removeEventListener("scroll", handleViewportChange);
+      window.removeEventListener("resize", handleViewportChange);
+    },
+    reset: reset
+  };
+}
+;// ./src/shared/ui/molecules/M_SearchInput/index.ts
+function applySearchInputPlaceholder() {
+  var main = document.querySelector("main");
+  var input = document.querySelector("[data-search-input]");
+  if (input && main !== null && main !== void 0 && main.dataset.searchPlaceholder) {
+    input.placeholder = main.dataset.searchPlaceholder;
+  }
+}
 ;// ./src/shared/ui/molecules/M_Header/index.ts
 
 function initHeaderControls() {
@@ -104,6 +189,32 @@ function applyNavigationItems() {
   });
   applyIcons();
 }
+;// ./src/shared/ui/molecules/M_TestCard/index.ts
+function applyTestCards() {
+  var hosts = document.querySelectorAll("M_TestCard");
+  hosts.forEach(function (host) {
+    var _ref, _host$dataset$title, _host$textContent, _host$dataset$url;
+    var title = (_ref = (_host$dataset$title = host.dataset.title) !== null && _host$dataset$title !== void 0 ? _host$dataset$title : (_host$textContent = host.textContent) === null || _host$textContent === void 0 ? void 0 : _host$textContent.trim()) !== null && _ref !== void 0 ? _ref : "";
+    var url = (_host$dataset$url = host.dataset.url) !== null && _host$dataset$url !== void 0 ? _host$dataset$url : "#";
+    var card = document.createElement("article");
+    card.className = "M_TestCard effect-background-blur-primary";
+    var content = document.createElement("div");
+    content.className = "M_TestCardContent";
+    var titleEl = document.createElement("p");
+    titleEl.className = "M_TestCardTitle text-p-1";
+    titleEl.textContent = title;
+    content.appendChild(titleEl);
+    var actions = document.createElement("div");
+    actions.className = "M_TestCardActions";
+    var button = document.createElement("A_Button");
+    button.setAttribute("href", url);
+    button.dataset.label = "Пройти тест";
+    actions.appendChild(button);
+    card.appendChild(content);
+    card.appendChild(actions);
+    host.replaceWith(card);
+  });
+}
 ;// ./src/shared/ui/molecules/index.ts
 
 
@@ -129,6 +240,15 @@ function applyButtonProps() {
     host.replaceWith(link);
   });
 }
+;// ./src/shared/config/constants.ts
+var ICONS_BASE_PATH = "/assets/icons";
+var ARTICLE_TAG_LABELS = {
+  Automation: "Автоматизация",
+  Productivity: "Продуктивность",
+  Practice: "Практика"
+};
+;// ./src/shared/config/index.ts
+
 ;// ./src/shared/ui/quarks/Q_Icon/index.ts
 
 function applyIcons() {
@@ -181,6 +301,29 @@ function applyIconButtons(handlers) {
     button.addEventListener("click", handler);
   });
   applyIcons();
+}
+;// ./src/shared/ui/atoms/A_FilterButton/index.ts
+function applyFilterButtons() {
+  var hosts = document.querySelectorAll("A_FilterButton");
+  hosts.forEach(function (host) {
+    var _ref, _host$textContent$tri, _host$textContent, _host$dataset$filterK;
+    var label = (_ref = (_host$textContent$tri = (_host$textContent = host.textContent) === null || _host$textContent === void 0 ? void 0 : _host$textContent.trim()) !== null && _host$textContent$tri !== void 0 ? _host$textContent$tri : host.dataset.label) !== null && _ref !== void 0 ? _ref : "";
+    var key = (_host$dataset$filterK = host.dataset.filterKey) !== null && _host$dataset$filterK !== void 0 ? _host$dataset$filterK : label.replace(/\s+/g, "");
+    var inactive = host.dataset.inactive === "true" || host.hasAttribute("data-inactive");
+    var button = document.createElement("button");
+    button.type = "button";
+    button.className = "A_FilterButton text-button";
+    if (label) {
+      button.textContent = label;
+    }
+    if (key) {
+      button.dataset.filterKey = key;
+    }
+    if (inactive) {
+      button.dataset.state = "inactive";
+    }
+    host.replaceWith(button);
+  });
 }
 ;// ./src/shared/ui/atoms/index.ts
 
@@ -282,81 +425,74 @@ function initNavigationPlate() {
 
 
 
-;// ./src/pages/ArticlePage/index.ts
+;// ./src/pages/TestsPage/index.ts
 
 
 
 
-var escapeHtml = function escapeHtml(value) {
-  return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
-};
-var inlineMarkdown = function inlineMarkdown(line) {
-  var escaped = escapeHtml(line);
-  var withBold = escaped.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-  return withBold.replace(/\*(.+?)\*/g, "<em>$1</em>");
-};
-var markdownToHtml = function markdownToHtml(markdown) {
-  var lines = markdown.split(/\r?\n/);
-  var chunks = [];
-  var inList = false;
-  var closeList = function closeList() {
-    if (inList) {
-      chunks.push("</ul>");
-      inList = false;
-    }
-  };
-  lines.forEach(function (rawLine) {
-    var line = rawLine.trim();
-    if (!line) {
-      closeList();
-      return;
-    }
-    if (line.startsWith("## ")) {
-      closeList();
-      chunks.push("<h2 class=\"text-h2\">".concat(inlineMarkdown(line.slice(3)), "</h2>"));
-      return;
-    }
-    if (line.startsWith("- ")) {
-      if (!inList) {
-        chunks.push('<ul class="text-p-1">');
-        inList = true;
-      }
-      chunks.push("<li>".concat(inlineMarkdown(line.slice(2)), "</li>"));
-      return;
-    }
-    closeList();
-    chunks.push("<p class=\"text-p-1\">".concat(inlineMarkdown(line), "</p>"));
-  });
-  closeList();
-  return chunks.join("");
-};
-var renderArticle = function renderArticle(article) {
-  var _article$tags$, _article$tags, _ARTICLE_TAG_LABELS$t;
-  var tagKey = (_article$tags$ = (_article$tags = article.tags) === null || _article$tags === void 0 ? void 0 : _article$tags[0]) !== null && _article$tags$ !== void 0 ? _article$tags$ : "";
-  var tagLabel = (_ARTICLE_TAG_LABELS$t = ARTICLE_TAG_LABELS[tagKey]) !== null && _ARTICLE_TAG_LABELS$t !== void 0 ? _ARTICLE_TAG_LABELS$t : tagKey;
-  var contentHtml = article.contentMarkdown ? markdownToHtml(article.contentMarkdown) : "<p class=\"text-p-1\">".concat(escapeHtml(article.excerpt), "</p>");
-  return "\n    <section class=\"ArticlePageContent\">\n      <header class=\"ArticlePageHero\">\n        <h1 class=\"text-h1\">".concat(escapeHtml(article.title), "</h1>\n        <p class=\"text-h4\">").concat(escapeHtml(article.excerpt), "</p>\n        <div class=\"ArticlePageTag text-label\">").concat(escapeHtml(tagLabel), "</div>\n      </header>\n      <article class=\"ArticlePageBody effect-background-blur-primary\">\n        ").concat(contentHtml, "\n      </article>\n      <div class=\"ArticlePageLinkItem\">\n        <span class=\"text-label\">\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043A \u0441\u0442\u0430\u0442\u044C\u044F\u043C</span>\n        <a href=\"/articles\">\n          <Q_Icon data-icon=\"Arrow_Circle_Right\" data-alt=\"Arrow_Circle_Right\"></Q_Icon>\n        </a>\n      </div>\n    </section>\n  ");
-};
 function bootstrap() {
-  var _getArticleCards$find;
+  var _filterButtons$0$data, _filterButtons$;
+  applySearchInputPlaceholder();
   initNavigationPlate();
   initHeaderControls();
   applyNavigationItems();
   initMobileNav();
-  var root = document.getElementById("articles-root");
-  if (!root) return;
-  var params = new URLSearchParams(window.location.search);
-  var id = params.get("id");
-  var article = (_getArticleCards$find = getArticleCards().find(function (item) {
-    return item.id === id;
-  })) !== null && _getArticleCards$find !== void 0 ? _getArticleCards$find : getArticleCards()[0];
-  if (!article) {
-    root.innerHTML = "<p class=\"text-p-1\">\u0421\u0442\u0430\u0442\u044C\u044F \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430.</p>";
-    return;
-  }
-  root.innerHTML = renderArticle(article);
-  applyIcons();
-  applyButtonProps();
+  applyFilterButtons();
+  var root = document.getElementById("tests-root");
+  var filterButtons = document.querySelectorAll(".C_TestsPageTestsFilterButtons .A_FilterButton");
+  if (!root || !filterButtons.length) return;
+  var allTests = getTestCards();
+  var filterToTagKey = {
+    TestProductivity: "Productivity",
+    TestAutomation: "Automation",
+    TestPractice: "Practice"
+  };
+  var activeFilterKey = (_filterButtons$0$data = (_filterButtons$ = filterButtons[0]) === null || _filterButtons$ === void 0 ? void 0 : _filterButtons$.dataset.filterKey) !== null && _filterButtons$0$data !== void 0 ? _filterButtons$0$data : null;
+  var filteredTests = [];
+  var _createPagination = createPagination({
+      listEl: root,
+      getItems: function getItems() {
+        return filteredTests;
+      },
+      pageSize: 9,
+      renderItem: function renderItem(test) {
+        return "\n        <M_TestCard\n          data-title=\"".concat(test.title, "\"\n          data-url=\"/test/?id=").concat(encodeURIComponent(test.id), "\"\n        ></M_TestCard>\n      ");
+      },
+      onRendered: function onRendered() {
+        applyTestCards();
+        applyButtonProps();
+      }
+    }),
+    reset = _createPagination.reset;
+  var renderCards = function renderCards(filterKey) {
+    var _filterToTagKey$filte;
+    var tagKey = filterKey ? (_filterToTagKey$filte = filterToTagKey[filterKey]) !== null && _filterToTagKey$filte !== void 0 ? _filterToTagKey$filte : null : null;
+    filteredTests = tagKey != null ? allTests.filter(function (test) {
+      var tags = test.tag;
+      if (!tags) return false;
+      return tags.indexOf(tagKey) !== -1;
+    }) : allTests;
+    reset();
+  };
+  var updateButtons = function updateButtons() {
+    filterButtons.forEach(function (btn) {
+      var key = btn.dataset.filterKey;
+      if (!key) return;
+      btn.dataset.state = activeFilterKey === key ? "" : "inactive";
+    });
+  };
+  filterButtons.forEach(function (btn) {
+    var key = btn.dataset.filterKey;
+    if (!key) return;
+    btn.addEventListener("click", function () {
+      if (activeFilterKey === key) return;
+      activeFilterKey = key;
+      updateButtons();
+      renderCards(activeFilterKey);
+    });
+  });
+  updateButtons();
+  renderCards(activeFilterKey);
 }
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", bootstrap);
@@ -374,7 +510,7 @@ if (document.readyState === "loading") {
     if(true) {
       (function() {
         var localsJsonString = undefined;
-        // 1774655710127
+        // 1774656082266
         var cssReload = __webpack_require__(417)(module.id, {});
         // only invalidate when locals change
         if (
@@ -499,18 +635,18 @@ if (document.readyState === "loading") {
 /******/ 		// This function allow to reference all chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + "articlePage" + "." + "96a16a98d6aa4d2a00e1" + ".css";
+/******/ 			return "" + "testsPage" + "." + "96a16a98d6aa4d2a00e1" + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/get update manifest filename */
 /******/ 	(() => {
-/******/ 		__webpack_require__.hmrF = () => ("articlePage." + __webpack_require__.h() + ".hot-update.json");
+/******/ 		__webpack_require__.hmrF = () => ("testsPage." + __webpack_require__.h() + ".hot-update.json");
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3ebd285f84fc660fe2fb")
+/******/ 		__webpack_require__.h = () => ("526d9183736b3a760a4e")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1110,7 +1246,7 @@ if (document.readyState === "loading") {
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = __webpack_require__.hmrS_jsonp = __webpack_require__.hmrS_jsonp || {
-/******/ 			454: 0
+/******/ 			595: 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -1646,7 +1782,7 @@ if (document.readyState === "loading") {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [96], () => (__webpack_require__(931)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [96], () => (__webpack_require__(425)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
